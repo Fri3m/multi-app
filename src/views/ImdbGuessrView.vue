@@ -99,8 +99,6 @@ const movieClues = computed(() => {
         width: windowWidth * 0.8 + 'px',
       }"
     >
-      <!-- Removed h1 title -->
-
       <div v-if="loading" class="loading">Loading movies...</div>
 
       <div v-else-if="error" class="error">
@@ -108,42 +106,43 @@ const movieClues = computed(() => {
       </div>
 
       <div v-else-if="currentMovie" class="game-container">
-        <div class="movie-info">
-          <div class="movie-poster">
-            <img :src="currentMovie.poster_link" :alt="currentMovie.title" />
-          </div>
+        <!-- Restructured to two-column layout -->
+        <div class="movie-poster">
+          <img :src="currentMovie.poster_link" :alt="currentMovie.title" />
+        </div>
 
+        <div class="content-container">
           <div class="movie-clues">
             <h2>{{ currentMovie.title }}</h2>
             <p><strong>Year:</strong> {{ movieClues.year }}</p>
             <p><strong>Director:</strong> {{ movieClues.director }}</p>
             <p><strong>Plot:</strong> {{ movieClues.plot }}</p>
           </div>
-        </div>
 
-        <div class="guess-section">
-          <h3>Guess the IMDB Rating (1-10)</h3>
+          <div class="guess-section">
+            <h3>Guess the IMDB Rating (1-10)</h3>
 
-          <div v-if="!guessSubmitted" class="guess-input">
-            <input type="range" v-model.number="userGuess" min="1" max="10" step="0.1" />
-            <div class="guess-value">{{ userGuess ? userGuess.toFixed(1) : '?' }}</div>
-            <button @click="submitGuess" :disabled="userGuess === null">Submit Guess</button>
-          </div>
+            <div v-if="!guessSubmitted" class="guess-input">
+              <input type="range" v-model.number="userGuess" min="1" max="10" step="0.1" />
+              <div class="guess-value">{{ userGuess ? userGuess.toFixed(1) : '?' }}</div>
+              <button @click="submitGuess" :disabled="userGuess === null">Submit Guess</button>
+            </div>
 
-          <div v-else class="result">
-            <p class="feedback">{{ feedback }}</p>
-            <p class="actual-rating">
-              Actual rating: <strong>{{ parseFloat(currentMovie.rating).toFixed(1) }}</strong>
-            </p>
-            <p class="your-guess">
-              Your guess: <strong>{{ userGuess.toFixed(1) }}</strong>
-            </p>
-            <button @click="nextMovie" class="next-button">Next Movie</button>
+            <div v-else class="result">
+              <p class="feedback">{{ feedback }}</p>
+              <p class="actual-rating">
+                Actual rating: <strong>{{ parseFloat(currentMovie.rating).toFixed(1) }}</strong>
+              </p>
+              <p class="your-guess">
+                Your guess: <strong>{{ userGuess.toFixed(1) }}</strong>
+              </p>
+              <button @click="nextMovie" class="next-button">Next Movie</button>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Moved score to bottom left -->
+      <!-- Score remains at bottom left -->
       <div class="score-container">
         <p class="score">Score: {{ score }}</p>
       </div>
@@ -167,7 +166,7 @@ const movieClues = computed(() => {
   margin: 0;
   padding: var(--spacing-xl);
   position: relative;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -189,28 +188,47 @@ const movieClues = computed(() => {
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-md);
-  overflow: auto; /* Allow scrolling inside container if needed */
+  overflow: hidden; /* Changed from auto to hidden */
   flex: 1;
-}
-
-.movie-info {
-  display: flex;
+  display: flex; /* Changed to flex layout */
   gap: var(--spacing-xl);
-  margin-bottom: var(--spacing-xl);
+  height: 100%; /* Ensure full height */
+  min-height: 500px; /* Ensure minimum height */
 }
 
 .movie-poster {
-  flex: 0 0 200px;
+  flex: 0 0 300px; /* Fixed width for poster */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Fill height of container */
+  max-height: 100%; /* Ensure it doesn't exceed container */
+  overflow: hidden; /* Prevent image overflow */
 }
 
 .movie-poster img {
   width: 100%;
+  height: auto; /* Changed from 100% to auto */
+  max-height: 100%;
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
+  object-fit: contain; /* Changed from cover to contain */
+  object-position: center; /* Center the image */
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  overflow-y: auto; /* Allow vertical scrolling if needed */
+  padding-right: var(--spacing-sm); /* Add padding for scroll bar */
+  min-width: 0; /* Prevent flex item from expanding beyond available space */
 }
 
 .movie-clues {
-  flex: 1;
+  flex: 0 0 auto;
+  overflow: hidden; /* Prevent text overflow */
 }
 
 .movie-clues h2 {
@@ -221,6 +239,8 @@ const movieClues = computed(() => {
 .movie-clues p {
   margin-bottom: var(--spacing-sm);
   line-height: 1.5;
+  overflow-wrap: break-word; /* Handle long words */
+  word-break: break-word; /* Break words to prevent overflow */
 }
 
 .guess-section {
@@ -228,6 +248,9 @@ const movieClues = computed(() => {
   padding: var(--spacing-lg);
   border-radius: var(--radius-md);
   text-align: center;
+  flex: 1;
+  min-height: 200px; /* Ensure minimum height */
+  overflow-y: auto; /* Allow scrolling if needed */
 }
 
 .guess-section h3 {
@@ -295,14 +318,25 @@ button:disabled {
 }
 
 @media (max-width: 768px) {
-  .movie-info {
+  .game-container {
     flex-direction: column;
     align-items: center;
+    overflow-y: auto; /* Enable scrolling on mobile */
   }
 
   .movie-poster {
     flex: 0 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto; /* Auto height on mobile */
+    max-height: 450px; /* Set maximum height on mobile */
     margin-bottom: var(--spacing-lg);
+  }
+
+  .content-container {
+    width: 100%;
+    max-height: none; /* Remove max height constraint */
+    overflow-y: visible; /* Content flows normally */
   }
 }
 </style>
