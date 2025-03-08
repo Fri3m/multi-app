@@ -144,4 +144,34 @@ export default {
       return { success: false, error: error.message }
     }
   },
+
+  async removeVideo(videoId) {
+    try {
+      // Get current videos from storage
+      const storedVideos = localStorage.getItem('videos')
+      if (!storedVideos) {
+        return { success: false, error: 'No videos found in storage' }
+      }
+
+      let videos = JSON.parse(storedVideos)
+
+      // Find and remove the video with the matching ID
+      const initialLength = videos.length
+      videos = videos.filter((video) => video.id !== videoId)
+
+      // If no video was removed, return error
+      if (videos.length === initialLength) {
+        return { success: false, error: 'Video not found' }
+      }
+
+      // Save updated videos back to storage
+      localStorage.setItem('videos', JSON.stringify(videos))
+
+      console.log('Removed video from local storage:', videoId)
+      return { success: true, videos }
+    } catch (error) {
+      console.error('Error removing video from local storage:', error)
+      return { success: false, error: error.message }
+    }
+  },
 }

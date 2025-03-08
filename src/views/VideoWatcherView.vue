@@ -35,38 +35,58 @@ const gridClass = computed(() => {
 function extractVideoId(url) {
   const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/
   const match = url.match(regExp)
-  return (match && match[2].length === 11) ? match[2] : null
+  return match && match[2].length === 11 ? match[2] : null
 }
 
 // Add a new video
 async function addVideo() {
   if (!newVideoUrl.value) return
-  
+
   const videoId = extractVideoId(newVideoUrl.value)
   if (!videoId) {
     error.value = 'Invalid YouTube URL'
     return
   }
-  
+
   try {
     const videoData = {
       id: videoId,
       url: newVideoUrl.value,
-      platform: 'youtube'
+      platform: 'youtube',
     }
-    
+
     await api.addVideo(videoData)
-    videos.value.push(videoData)
     newVideoUrl.value = ''
     error.value = null
+
+    // Refresh videos list
+    videos.value = await api.getVideos()
   } catch (err) {
     error.value = 'Failed to add video: ' + err.message
   }
 }
 
 // Remove a video
-function removeVideo(index) {
-  videos.value.splice(index, 1)
+async function removeVideo(index) {
+  try {
+    const videoId = videos.value[index].id
+    const result = await api.removeVideo(videoId)
+
+    if (result.success) {
+      // If API returns updated videos, use them directly
+      if (result.videos) {
+        videos.value = result.videos
+      } else {
+        // Otherwise refresh videos from storage
+        videos.value = await api.getVideos()
+      }
+      error.value = null
+    } else {
+      error.value = result.error || 'Failed to remove video'
+    }
+  } catch (err) {
+    error.value = 'Failed to remove video: ' + err.message
+  }
 }
 </script>
 
@@ -74,40 +94,36 @@ function removeVideo(index) {
   <div class="video-watcher">
     <div class="controls">
       <h1>Video Watcher</h1>
-      
+
       <div class="add-video-form">
-        <input 
-          type="text" 
-          v-model="newVideoUrl" 
-          placeholder="Enter YouTube URL" 
+        <input
+          type="text"
+          v-model="newVideoUrl"
+          placeholder="Enter YouTube URL"
           @keyup.enter="addVideo"
         />
         <button @click="addVideo">Add Video</button>
       </div>
-      
+
       <div v-if="error" class="error-message">{{ error }}</div>
     </div>
-    
+
     <div v-if="loading" class="loading">Loading videos...</div>
-    
+
     <div v-else-if="videos.length === 0" class="empty-state">
       <p>No videos added yet. Add a YouTube URL to get started.</p>
     </div>
-    
+
     <div v-else :class="['video-grid', gridClass]">
-      <div 
-        v-for="(video, index) in videos" 
-        :key="video.id + index" 
-        class="video-container"
-      >
+      <div v-for="(video, index) in videos" :key="video.id + index" class="video-container">
         <div class="remove-panel">
           <button class="remove-btn" @click="removeVideo(index)">×</button>
         </div>
-        
-        <iframe 
-          :src="`https://www.youtube.com/embed/${video.id}`" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+
+        <iframe
+          :src="`https://www.youtube.com/embed/${video.id}`"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </div>
@@ -151,7 +167,7 @@ input {
 
 button {
   padding: 0.5rem 1rem;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 4px;
@@ -168,7 +184,8 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-.loading, .empty-state {
+.loading,
+.empty-state {
   text-align: center;
   margin-top: 2rem;
 }
@@ -256,4 +273,4 @@ button:hover {
 .remove-btn:hover {
   background-color: rgba(255, 0, 0, 0.7);
 }
-</style> 
+</style>
