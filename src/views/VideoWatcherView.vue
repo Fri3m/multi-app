@@ -160,9 +160,7 @@ function toggleAddModal() {
 
 <template>
   <div class="video-watcher">
-    <div class="controls">
-      <h1>Video Watcher</h1>
-    </div>
+    <div class="controls"></div>
 
     <div v-if="loading" class="loading">Loading videos...</div>
 
