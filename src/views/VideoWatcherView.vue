@@ -240,8 +240,8 @@ function toggleAddModal() {
 }
 
 .controls {
-  padding: 1rem;
-  margin-bottom: 0.5rem;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
   flex-shrink: 0; /* Prevent controls from shrinking */
 }
 
@@ -253,9 +253,9 @@ h1 {
 /* Video grid styles */
 .video-grid {
   display: grid;
-  gap: 0.5rem;
+  gap: var(--spacing-sm);
   width: 100%;
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 var(--spacing-sm) var(--spacing-sm) var(--spacing-sm);
   overflow: hidden; /* Prevent grid from scrolling */
   box-sizing: border-box;
 }
@@ -273,7 +273,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   z-index: 1;
 }
 
@@ -291,7 +291,7 @@ h1 {
 .remove-btn {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
+  border-radius: var(--radius-full);
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   border: none;
@@ -300,7 +300,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  transition: background-color var(--transition-speed);
   padding: 0;
 }
 
@@ -309,17 +309,17 @@ h1 {
 }
 
 .error-message {
-  color: #ff6b6b;
+  color: var(--color-danger-light);
   text-align: center;
-  margin-top: 1rem;
+  margin-top: var(--spacing-md);
 }
 
 .loading,
 .empty-state {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: var(--spacing-xl);
   flex-grow: 1;
-  padding: 0 1rem;
+  padding: 0 var(--spacing-md);
 }
 
 /* Floating Action Button */
@@ -329,63 +329,42 @@ h1 {
   right: 30px;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
-  background-color: #4caf50;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
   color: white;
   font-size: 30px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-md);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  transition: all 0.2s ease;
+  transition: all var(--transition-speed);
 }
 
 .fab:hover {
-  background-color: #45a049;
+  background-color: var(--color-primary-dark);
   transform: scale(1.05);
 }
 
 /* Modal styles */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background-color: #222;
-  padding: 2rem;
-  border-radius: 8px;
-  width: 90%;
-  max-width: 500px;
-}
-
 .modal-content h2 {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-lg);
 }
 
 .add-video-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--spacing-md);
 }
 
 .add-video-form input {
   padding: 0.75rem;
-  border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #333;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-input);
   color: white;
   width: 100%;
 }
@@ -394,33 +373,33 @@ h1 {
   display: flex;
   justify-content: flex-end;
   gap: 0.75rem;
-  margin-top: 0.5rem;
+  margin-top: var(--spacing-sm);
 }
 
 .add-btn {
-  padding: 0.5rem 1rem;
-  background-color: #4caf50;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-primary);
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
 }
 
 .add-btn:hover {
-  background-color: #45a049;
+  background-color: var(--color-primary-dark);
 }
 
 .cancel-btn {
-  padding: 0.5rem 1rem;
-  background-color: #666;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--bg-card-secondary);
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
 }
 
 .cancel-btn:hover {
-  background-color: #555;
+  background-color: var(--hover-color);
 }
 
 /* Delete confirmation specific styles */
@@ -429,19 +408,19 @@ h1 {
 }
 
 .delete-confirm p {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-lg);
 }
 
 .delete-btn {
-  padding: 0.5rem 1rem;
-  background-color: #e53935;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-danger);
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
 }
 
 .delete-btn:hover {
-  background-color: #c62828;
+  background-color: var(--color-danger-dark);
 }
 </style>

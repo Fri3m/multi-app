@@ -8,29 +8,31 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  color: var(--color-primary-light);
+  transition: var(--transition-speed);
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: var(--focus-color);
   }
 }
 
-/* Remove the problematic media query that's causing layout issues */
-/* 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+/* Global layout styles */
+.loading,
+.error {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 1.2rem;
 }
-*/
+
+.error {
+  color: var(--color-danger-light);
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--text-muted);
+}

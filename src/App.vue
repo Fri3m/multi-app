@@ -42,8 +42,8 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  background-color: var(--card-bg);
-  color: var(--text-color);
+  background-color: var(--bg-card);
+  color: var(--text-primary);
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 25px;
@@ -51,8 +51,10 @@ body {
   align-items: center;
   gap: 10px;
   z-index: 9999;
-  transition: background-color 0.2s, transform 0.2s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition:
+    background-color var(--transition-speed),
+    transform var(--transition-speed);
+  box-shadow: var(--shadow-sm);
 }
 
 .home-button:hover {
