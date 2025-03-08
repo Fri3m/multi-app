@@ -1,0 +1,3215 @@
+[
+    {
+        "name": "PUBG: BATTLEGROUNDS",
+        "appid": "578080",
+        "total_reviews": 276279,
+        "rating": 63.124595065133434,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg?t=1736389084",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/578080/library_600x900.jpg",
+        "max_players": "3257248"
+    },
+    {
+        "name": "Black Myth: Wukong",
+        "appid": "2358720",
+        "total_reviews": 59063,
+        "rating": 94.18417621861403,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1736335042",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2358720/library_600x900.jpg",
+        "max_players": "2415714"
+    },
+    {
+        "name": "Palworld",
+        "appid": "1623730",
+        "total_reviews": 131937,
+        "rating": 95.44252180965158,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/header.jpg?t=1737094038",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/library_600x900.jpg",
+        "max_players": "2101867"
+    },
+    {
+        "name": "Counter-Strike 2",
+        "appid": "730",
+        "total_reviews": 1284103,
+        "rating": 86.50373061974001,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1729703045",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/730/library_600x900.jpg",
+        "max_players": "1818773"
+    },
+    {
+        "name": "Lost Ark",
+        "appid": "1599340",
+        "total_reviews": 38937,
+        "rating": 70.02080283534941,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/header.jpg?t=1736361963",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1599340/library_600x900.jpg",
+        "max_players": "1325305"
+    },
+    {
+        "name": "Dota 2",
+        "appid": "570",
+        "total_reviews": 6080,
+        "rating": 89.09539473684211,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1731544174",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/570/library_600x900.jpg",
+        "max_players": "1295114"
+    },
+    {
+        "name": "Cyberpunk 2077",
+        "appid": "1091500",
+        "total_reviews": 320527,
+        "rating": 87.10997825456201,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1734434803",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
+        "max_players": "1054388"
+    },
+    {
+        "name": "ELDEN RING",
+        "appid": "1245620",
+        "total_reviews": 393021,
+        "rating": 94.19878327112292,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1738690346",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+        "max_players": "953426"
+    },
+    {
+        "name": "New World: Aeternum",
+        "appid": "1063730",
+        "total_reviews": 140125,
+        "rating": 68.33041926851025,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1063730/header.jpg?t=1738617391",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1063730/library_600x900.jpg",
+        "max_players": "913634"
+    },
+    {
+        "name": "\u30db\u30b0\u30ef\u30fc\u30c4\u30fb\u30ec\u30ac\u30b7\u30fc",
+        "appid": "990080",
+        "total_reviews": 122016,
+        "rating": 92.03792945187517,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg?t=1738007476",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/library_600x900.jpg",
+        "max_players": "879308"
+    },
+    {
+        "name": "Baldur's Gate 3",
+        "appid": "1086940",
+        "total_reviews": 389852,
+        "rating": 96.87471142895252,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1737046196",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
+        "max_players": "875343"
+    },
+    {
+        "name": "Path of Exile 2",
+        "appid": "2694490",
+        "total_reviews": 61327,
+        "rating": 81.56603127496861,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg?t=1736126604",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2694490/library_600x900.jpg",
+        "max_players": "578569"
+    },
+    {
+        "name": "Valheim",
+        "appid": "892970",
+        "total_reviews": 239389,
+        "rating": 95.02942908822043,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg?t=1738051073",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/library_600x900.jpg",
+        "max_players": "502387"
+    },
+    {
+        "name": "Call of Duty\u00ae",
+        "appid": "1938090",
+        "total_reviews": 213354,
+        "rating": 58.11890098146743,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/header.jpg?t=1738094002",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/library_600x900.jpg",
+        "max_players": "491670"
+    },
+    {
+        "name": "Terraria",
+        "appid": "105600",
+        "total_reviews": 545666,
+        "rating": 97.73927640717949,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1731252354",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/library_600x900.jpg",
+        "max_players": "489886"
+    },
+    {
+        "name": "Fallout 4",
+        "appid": "377160",
+        "total_reviews": 162128,
+        "rating": 83.23608506858778,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1726758475",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/377160/library_600x900.jpg",
+        "max_players": "472962"
+    },
+    {
+        "name": "Life is Strange 2",
+        "appid": "532210",
+        "total_reviews": 8463,
+        "rating": 81.90948836110127,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532210/header.jpg?t=1728397855",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/532210/library_600x900.jpg",
+        "max_players": "468717"
+    },
+    {
+        "name": "HELLDIVERS\u2122 2",
+        "appid": "553850",
+        "total_reviews": 545362,
+        "rating": 81.49155973463498,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg?t=1737495569",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_600x900.jpg",
+        "max_players": "458709"
+    },
+    {
+        "name": "Among Us",
+        "appid": "945360",
+        "total_reviews": 359704,
+        "rating": 92.22749816515801,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1731953093",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/945360/library_600x900.jpg",
+        "max_players": "447476"
+    },
+    {
+        "name": "Sons Of The Forest",
+        "appid": "1326470",
+        "total_reviews": 96070,
+        "rating": 87.8619756427605,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1326470/library_600x900.jpg",
+        "max_players": "414257"
+    },
+    {
+        "name": "NARAKA: BLADEPOINT",
+        "appid": "1203220",
+        "total_reviews": 12780,
+        "rating": 81.99530516431925,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/header.jpg?t=1737540792",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1203220/library_600x900.jpg",
+        "max_players": "385770"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "appid": "271590",
+        "total_reviews": 554356,
+        "rating": 83.46134974637238,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1737136276",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/library_600x900.jpg",
+        "max_players": "364548"
+    },
+    {
+        "name": "HITMAN\u2122 2",
+        "appid": "863550",
+        "total_reviews": 13851,
+        "rating": 92.02223666161288,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863550/header.jpg?t=1674755762",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/863550/library_600x900.jpg",
+        "max_players": "361001"
+    },
+    {
+        "name": "THRONE AND LIBERTY",
+        "appid": "2429640",
+        "total_reviews": 5804,
+        "rating": 74.20744314266024,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2429640/header.jpg?t=1735837136",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2429640/library_600x900.jpg",
+        "max_players": "336300"
+    },
+    {
+        "name": "Monster Hunter: World",
+        "appid": "582010",
+        "total_reviews": 106718,
+        "rating": 92.18219981633838,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1734656748",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_600x900.jpg",
+        "max_players": "334684"
+    },
+    {
+        "name": "Starfield",
+        "appid": "1716740",
+        "total_reviews": 80017,
+        "rating": 58.15514203231813,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg?t=1727384525",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/library_600x900.jpg",
+        "max_players": "330723"
+    },
+    {
+        "name": "Counter-Strike",
+        "appid": "10",
+        "total_reviews": 32338,
+        "rating": 96.63553713896962,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10/header.jpg?t=1729702322",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/10/library_600x900.jpg",
+        "max_players": "319586"
+    },
+    {
+        "name": "Destiny 2",
+        "appid": "1085660",
+        "total_reviews": 73643,
+        "rating": 81.30575886370734,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/header.jpg?t=1738688481",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1085660/library_600x900.jpg",
+        "max_players": "316750"
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim",
+        "appid": "72850",
+        "total_reviews": 101579,
+        "rating": 92.53487433426201,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/72850/header.jpg?t=1721923139",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/72850/library_600x900.jpg",
+        "max_players": "287411"
+    },
+    {
+        "name": "Dying Light 2 Stay Human: Reloaded Edition",
+        "appid": "534380",
+        "total_reviews": 61588,
+        "rating": 78.50230564395662,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1738070628",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/534380/library_600x900.jpg",
+        "max_players": "274983"
+    },
+    {
+        "name": "Halo Infinite",
+        "appid": "1240440",
+        "total_reviews": 26559,
+        "rating": 68.9069618585037,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/header.jpg?t=1738694980",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/library_600x900.jpg",
+        "max_players": "272586"
+    },
+    {
+        "name": "Last Epoch",
+        "appid": "899770",
+        "total_reviews": 50283,
+        "rating": 83.2647216753177,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/899770/header.jpg?t=1736355032",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/899770/library_600x900.jpg",
+        "max_players": "264708"
+    },
+    {
+        "name": "Rust",
+        "appid": "252490",
+        "total_reviews": 477287,
+        "rating": 87.16851705577567,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1737104655",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/library_600x900.jpg",
+        "max_players": "262284"
+    },
+    {
+        "name": "Team Fortress 2",
+        "appid": "440",
+        "total_reviews": 24600,
+        "rating": 69.98780487804878,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1729702978",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/440/library_600x900.jpg",
+        "max_players": "253997"
+    },
+    {
+        "name": "ARK: Survival Evolved",
+        "appid": "346110",
+        "total_reviews": 242120,
+        "rating": 81.0841731372873,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1709879597",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/346110/library_600x900.jpg",
+        "max_players": "248405"
+    },
+    {
+        "name": "Mount & Blade II: Bannerlord",
+        "appid": "261550",
+        "total_reviews": 88511,
+        "rating": 87.36202279942606,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261550/header.jpg?t=1728556827",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/261550/library_600x900.jpg",
+        "max_players": "248216"
+    },
+    {
+        "name": "PAYDAY 2",
+        "appid": "218620",
+        "total_reviews": 169517,
+        "rating": 87.83661815629111,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg?t=1729586701",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/218620/library_600x900.jpg",
+        "max_players": "247709"
+    },
+    {
+        "name": "Lethal Company",
+        "appid": "1966720",
+        "total_reviews": 259200,
+        "rating": 97.63078703703704,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1723894859",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1966720/library_600x900.jpg",
+        "max_players": "240817"
+    },
+    {
+        "name": "Stardew Valley",
+        "appid": "413150",
+        "total_reviews": 340498,
+        "rating": 98.91599950660503,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900.jpg",
+        "max_players": "236614"
+    },
+    {
+        "name": "MONSTER HUNTER RISE",
+        "appid": "1446780",
+        "total_reviews": 30598,
+        "rating": 85.97620759526767,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1734977993",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/library_600x900.jpg",
+        "max_players": "231360"
+    },
+    {
+        "name": "Dragon's Dogma 2",
+        "appid": "2054970",
+        "total_reviews": 40608,
+        "rating": 67.11731678486997,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg?t=1732148252",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2054970/library_600x900.jpg",
+        "max_players": "228585"
+    },
+    {
+        "name": "FOR HONOR\u2122",
+        "appid": "304390",
+        "total_reviews": 50162,
+        "rating": 70.20852438100555,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/header.jpg?t=1738011125",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/304390/library_600x900.jpg",
+        "max_players": "225831"
+    },
+    {
+        "name": "Warhammer 40,000: Space Marine 2",
+        "appid": "2183900",
+        "total_reviews": 68684,
+        "rating": 86.19911478655872,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header_alt_assets_4.jpg?t=1738851146",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2183900/library_600x900.jpg",
+        "max_players": "225690"
+    },
+    {
+        "name": "No Man's Sky",
+        "appid": "275850",
+        "total_reviews": 157369,
+        "rating": 79.23669846030667,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header_alt_assets_13.jpg?t=1738159981",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_600x900.jpg",
+        "max_players": "212613"
+    },
+    {
+        "name": "Content Warning",
+        "appid": "2881650",
+        "total_reviews": 25594,
+        "rating": 94.43228881769164,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg?t=1736717925",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2881650/library_600x900.jpg",
+        "max_players": "204439"
+    },
+    {
+        "name": "Tom Clancy's Rainbow Six\u00ae Siege",
+        "appid": "359550",
+        "total_reviews": 575995,
+        "rating": 84.82400020833514,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1738608668",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/359550/library_600x900.jpg",
+        "max_players": "201933"
+    },
+    {
+        "name": "Total War: THREE KINGDOMS",
+        "appid": "779340",
+        "total_reviews": 16121,
+        "rating": 84.37441846039327,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg?t=1699976365",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/779340/library_600x900.jpg",
+        "max_players": "192298"
+    },
+    {
+        "name": "A Story About My Uncle",
+        "appid": "278360",
+        "total_reviews": 7135,
+        "rating": 92.44569025928521,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278360/header.jpg?t=1589403981",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/278360/library_600x900.jpg",
+        "max_players": "190590"
+    },
+    {
+        "name": "Football Manager 2020",
+        "appid": "1100600",
+        "total_reviews": 6856,
+        "rating": 90.91306884480747,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1100600/header.jpg?t=1671725182",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1100600/library_600x900.jpg",
+        "max_players": "189464"
+    },
+    {
+        "name": "Satisfactory",
+        "appid": "526870",
+        "total_reviews": 109545,
+        "rating": 97.49235474006116,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1737364583",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/526870/library_600x900.jpg",
+        "max_players": "186158"
+    },
+    {
+        "name": "Kingdom Come: Deliverance II",
+        "appid": "1771300",
+        "total_reviews": 5630,
+        "rating": 90.35523978685612,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg?t=1738836316",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1771300/library_600x900.jpg",
+        "max_players": "185582"
+    },
+    {
+        "name": "Manor Lords",
+        "appid": "1363080",
+        "total_reviews": 30111,
+        "rating": 89.75125369466308,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg?t=1738517024",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1363080/library_600x900.jpg",
+        "max_players": "173178"
+    },
+    {
+        "name": "Fall Guys",
+        "appid": "1097150",
+        "total_reviews": 149619,
+        "rating": 83.81890000601527,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/header.jpg?t=1698763175",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1097150/library_600x900.jpg",
+        "max_players": "172213"
+    },
+    {
+        "name": "Resident Evil 4",
+        "appid": "2050650",
+        "total_reviews": 45042,
+        "rating": 96.98281603836419,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1736385712",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+        "max_players": "168191"
+    },
+    {
+        "name": "Total War: WARHAMMER III",
+        "appid": "1142710",
+        "total_reviews": 47851,
+        "rating": 74.02353137865457,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg?t=1734023395",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/library_600x900.jpg",
+        "max_players": "166754"
+    },
+    {
+        "name": "Company of Heroes 2",
+        "appid": "231430",
+        "total_reviews": 27141,
+        "rating": 84.57315500534247,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/header.jpg?t=1661158807",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/231430/library_600x900.jpg",
+        "max_players": "164688"
+    },
+    {
+        "name": "Sid Meier\u2019s Civilization\u00ae VI",
+        "appid": "289070",
+        "total_reviews": 98476,
+        "rating": 84.86534790202688,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1737487911",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/289070/library_600x900.jpg",
+        "max_players": "162657"
+    },
+    {
+        "name": "Left 4 Dead 2",
+        "appid": "550",
+        "total_reviews": 204608,
+        "rating": 97.52257976227713,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1731457037",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/550/library_600x900.jpg",
+        "max_players": "162399"
+    },
+    {
+        "name": "Halo: The Master Chief Collection",
+        "appid": "976730",
+        "total_reviews": 148780,
+        "rating": 92.341712595779,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1670458602",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/976730/library_600x900.jpg",
+        "max_players": "161024"
+    },
+    {
+        "name": "Enshrouded",
+        "appid": "1203620",
+        "total_reviews": 32292,
+        "rating": 87.93818902514555,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/header.jpg?t=1738154124",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1203620/library_600x900.jpg",
+        "max_players": "160405"
+    },
+    {
+        "name": "ARMORED CORE\u2122 VI FIRES OF RUBICON\u2122",
+        "appid": "1888160",
+        "total_reviews": 36092,
+        "rating": 93.61077247035354,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888160/header.jpg?t=1726158706",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1888160/library_600x900.jpg",
+        "max_players": "156171"
+    },
+    {
+        "name": "MultiVersus",
+        "appid": "1818750",
+        "total_reviews": 5296,
+        "rating": 71.90332326283988,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1818750/header.jpg?t=1738688452",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1818750/library_600x900.jpg",
+        "max_players": "153433"
+    },
+    {
+        "name": "Z1 Battle Royale",
+        "appid": "433850",
+        "total_reviews": 37857,
+        "rating": 51.121324986132024,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/header.jpg?t=1579626820",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/433850/library_600x900.jpg",
+        "max_players": "151239"
+    },
+    {
+        "name": "V Rising",
+        "appid": "1604030",
+        "total_reviews": 46421,
+        "rating": 89.98082764266174,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/header.jpg?t=1733954722",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/library_600x900.jpg",
+        "max_players": "150645"
+    },
+    {
+        "name": "Wallpaper Engine",
+        "appid": "431960",
+        "total_reviews": 199780,
+        "rating": 98.2150365401942,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1733409718",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/library_600x900.jpg",
+        "max_players": "150375"
+    },
+    {
+        "name": "Rocket League\u00ae",
+        "appid": "252950",
+        "total_reviews": 224141,
+        "rating": 87.1241762997399,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/header.jpg?t=1733328011",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/library_600x900.jpg",
+        "max_players": "147632"
+    },
+    {
+        "name": "Crusader Kings II",
+        "appid": "203770",
+        "total_reviews": 22355,
+        "rating": 92.82487139342429,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203770/header.jpg?t=1726489710",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/203770/library_600x900.jpg",
+        "max_players": "141439"
+    },
+    {
+        "name": "Farming Simulator 25",
+        "appid": "2300320",
+        "total_reviews": 6997,
+        "rating": 80.56309847077318,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/header.jpg?t=1738682684",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2300320/library_600x900.jpg",
+        "max_players": "135970"
+    },
+    {
+        "name": "XCOM\u00ae 2",
+        "appid": "268500",
+        "total_reviews": 40920,
+        "rating": 85.60850439882698,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1646157374",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/268500/library_600x900.jpg",
+        "max_players": "133022"
+    },
+    {
+        "name": "DARK SOULS\u2122 III",
+        "appid": "374320",
+        "total_reviews": 98618,
+        "rating": 93.94329635563487,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1733509027",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/374320/library_600x900.jpg",
+        "max_players": "129975"
+    },
+    {
+        "name": "Hacknet",
+        "appid": "365450",
+        "total_reviews": 7139,
+        "rating": 94.24289116122706,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365450/header.jpg?t=1726271733",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/365450/library_600x900.jpg",
+        "max_players": "127640"
+    },
+    {
+        "name": "Wolcen: Lords of Mayhem",
+        "appid": "424370",
+        "total_reviews": 27639,
+        "rating": 56.76761098447846,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424370/header.jpg?t=1731003158",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/424370/library_600x900.jpg",
+        "max_players": "127542"
+    },
+    {
+        "name": "Human Fall Flat",
+        "appid": "477160",
+        "total_reviews": 28873,
+        "rating": 95.2827901499671,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/header.jpg?t=1738841800",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/library_600x900.jpg",
+        "max_players": "127517"
+    },
+    {
+        "name": "7 Days to Die",
+        "appid": "251570",
+        "total_reviews": 112793,
+        "rating": 88.11185091273394,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1736194886",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/251570/library_600x900.jpg",
+        "max_players": "125419"
+    },
+    {
+        "name": "Sekiro\u2122: Shadows Die Twice - GOTY Edition",
+        "appid": "814380",
+        "total_reviews": 76124,
+        "rating": 93.80484472702433,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg?t=1726158438",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg",
+        "max_players": "125315"
+    },
+    {
+        "name": "OUTRIDERS",
+        "appid": "680420",
+        "total_reviews": 30204,
+        "rating": 68.63991524301417,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/680420/header.jpg?t=1728485147",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/680420/library_600x900.jpg",
+        "max_players": "125143"
+    },
+    {
+        "name": "Borderlands 2",
+        "appid": "49520",
+        "total_reviews": 111928,
+        "rating": 95.98491887642055,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg?t=1728608124",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/49520/library_600x900.jpg",
+        "max_players": "124678"
+    },
+    {
+        "name": "DRAGON BALL: Sparking! ZERO",
+        "appid": "1790600",
+        "total_reviews": 25724,
+        "rating": 90.0831907945887,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1790600/header_alt_assets_0.jpg?t=1737698207",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1790600/library_600x900.jpg",
+        "max_players": "122554"
+    },
+    {
+        "name": "Insurgency",
+        "appid": "222880",
+        "total_reviews": 35658,
+        "rating": 92.41965337371698,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/222880/header.jpg?t=1610560212",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/222880/library_600x900.jpg",
+        "max_players": "121575"
+    },
+    {
+        "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "appid": "1643320",
+        "total_reviews": 34007,
+        "rating": 79.83062310700738,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg?t=1736770066",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1643320/library_600x900.jpg",
+        "max_players": "121335"
+    },
+    {
+        "name": "Factorio",
+        "appid": "427520",
+        "total_reviews": 103163,
+        "rating": 98.26197376966547,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg?t=1730307306",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/427520/library_600x900.jpg",
+        "max_players": "118674"
+    },
+    {
+        "name": "Total War: ROME II - Emperor Edition",
+        "appid": "214950",
+        "total_reviews": 29252,
+        "rating": 84.76343497880487,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/header.jpg?t=1689855991",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/214950/library_600x900.jpg",
+        "max_players": "118240"
+    },
+    {
+        "name": "Battlefield\u2122 V",
+        "appid": "1238810",
+        "total_reviews": 30083,
+        "rating": 70.74095003822757,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1738598409",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1238810/library_600x900.jpg",
+        "max_players": "116104"
+    },
+    {
+        "name": "Don't Starve Together",
+        "appid": "322330",
+        "total_reviews": 76276,
+        "rating": 95.82961875294981,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/header_alt_assets_47.jpg?t=1738877973",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/322330/library_600x900.jpg",
+        "max_players": "115925"
+    },
+    {
+        "name": "Tom Clancy\u2019s The Division\u2122",
+        "appid": "365590",
+        "total_reviews": 25475,
+        "rating": 72.6712463199215,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365590/header.jpg?t=1711101159",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/365590/library_600x900.jpg",
+        "max_players": "114228"
+    },
+    {
+        "name": "Granblue Fantasy: Relink",
+        "appid": "881020",
+        "total_reviews": 9885,
+        "rating": 92.40263024785028,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/header.jpg?t=1734923174",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/881020/library_600x900.jpg",
+        "max_players": "114054"
+    },
+    {
+        "name": "Liar's Bar",
+        "appid": "3097560",
+        "total_reviews": 11563,
+        "rating": 92.02629075499438,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097560/header.jpg?t=1735072240",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/3097560/library_600x900.jpg",
+        "max_players": "113798"
+    },
+    {
+        "name": "Total War: WARHAMMER",
+        "appid": "364360",
+        "total_reviews": 17842,
+        "rating": 82.18809550498824,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364360/header.jpg?t=1668768531",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/364360/library_600x900.jpg",
+        "max_players": "113019"
+    },
+    {
+        "name": "Phasmophobia",
+        "appid": "739630",
+        "total_reviews": 317981,
+        "rating": 96.26078287696434,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg?t=1727019976",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/739630/library_600x900.jpg",
+        "max_players": "112717"
+    },
+    {
+        "name": "EA SPORTS\u2122 FIFA 23",
+        "appid": "1811260",
+        "total_reviews": 35714,
+        "rating": 60.65128521028168,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1811260/header.jpg?t=1734718991",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1811260/library_600x900.jpg",
+        "max_players": "110878"
+    },
+    {
+        "name": "REMNANT II\u00ae",
+        "appid": "1282100",
+        "total_reviews": 24099,
+        "rating": 86.0616623096394,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282100/header.jpg?t=1729615170",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1282100/library_600x900.jpg",
+        "max_players": "110856"
+    },
+    {
+        "name": "EA SPORTS FC\u2122 25",
+        "appid": "2669320",
+        "total_reviews": 14397,
+        "rating": 46.9264430089602,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg?t=1738321107",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2669320/library_600x900.jpg",
+        "max_players": "110026"
+    },
+    {
+        "name": "The Forest",
+        "appid": "242760",
+        "total_reviews": 166741,
+        "rating": 95.32508501208461,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/242760/library_600x900.jpg",
+        "max_players": "109397"
+    },
+    {
+        "name": "Warhammer 40,000: Darktide",
+        "appid": "1361210",
+        "total_reviews": 62755,
+        "rating": 72.62688232013386,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/header.jpg?t=1733236286",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1361210/library_600x900.jpg",
+        "max_players": "108395"
+    },
+    {
+        "name": "FIFA 22",
+        "appid": "1506830",
+        "total_reviews": 33502,
+        "rating": 80.8250253716196,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1506830/header.jpg?t=1712678728",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1506830/library_600x900.jpg",
+        "max_players": "108295"
+    },
+    {
+        "name": "Guns of Icarus Online",
+        "appid": "209080",
+        "total_reviews": 6288,
+        "rating": 91.73027989821882,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209080/header.jpg?t=1674849918",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/209080/library_600x900.jpg",
+        "max_players": "107883"
+    },
+    {
+        "name": "Battlefield\u2122 2042",
+        "appid": "1517290",
+        "total_reviews": 94485,
+        "rating": 46.81483833412711,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg?t=1738598406",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1517290/library_600x900.jpg",
+        "max_players": "107376"
+    },
+    {
+        "name": "EA SPORTS FC\u2122 24",
+        "appid": "2195250",
+        "total_reviews": 31218,
+        "rating": 57.181754116215004,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1730826798",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2195250/library_600x900.jpg",
+        "max_players": "107359"
+    },
+    {
+        "name": "Resident Evil Village",
+        "appid": "1196590",
+        "total_reviews": 36960,
+        "rating": 94.94859307359307,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1738822560",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/library_600x900.jpg",
+        "max_players": "106631"
+    },
+    {
+        "name": "Farming Simulator 22",
+        "appid": "1248130",
+        "total_reviews": 22857,
+        "rating": 92.44870280439252,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1248130/header.jpg?t=1715068241",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1248130/library_600x900.jpg",
+        "max_players": "105636"
+    },
+    {
+        "name": "Dead by Daylight",
+        "appid": "381210",
+        "total_reviews": 213352,
+        "rating": 80.72715512392665,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1738165502",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/381210/library_600x900.jpg",
+        "max_players": "105093"
+    },
+    {
+        "name": "DOOM Eternal",
+        "appid": "782330",
+        "total_reviews": 113003,
+        "rating": 91.24271037052114,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg?t=1702308063",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/782330/library_600x900.jpg",
+        "max_players": "104891"
+    },
+    {
+        "name": "Cities: Skylines II",
+        "appid": "949230",
+        "total_reviews": 26242,
+        "rating": 54.187942992149985,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg?t=1735836231",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/949230/library_600x900.jpg",
+        "max_players": "104697"
+    },
+    {
+        "name": "Warhammer: Vermintide 2",
+        "appid": "552500",
+        "total_reviews": 41092,
+        "rating": 89.82283656186118,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552500/header_alt_assets_17.jpg?t=1737986016",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/552500/library_600x900.jpg",
+        "max_players": "104323"
+    },
+    {
+        "name": "Party Animals",
+        "appid": "1260320",
+        "total_reviews": 14856,
+        "rating": 89.5463112547119,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/header.jpg?t=1737683976",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1260320/library_600x900.jpg",
+        "max_players": "104174"
+    },
+    {
+        "name": "Hades II",
+        "appid": "1145350",
+        "total_reviews": 32154,
+        "rating": 97.10455930832866,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header_alt_assets_0.jpg?t=1729834138",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1145350/library_600x900.jpg",
+        "max_players": "103567"
+    },
+    {
+        "name": "The Witcher 3: Wild Hunt",
+        "appid": "292030",
+        "total_reviews": 217618,
+        "rating": 96.82700879522834,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1736424367",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg",
+        "max_players": "103329"
+    },
+    {
+        "name": "Raft",
+        "appid": "648800",
+        "total_reviews": 118126,
+        "rating": 93.95899293974232,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/648800/library_600x900.jpg",
+        "max_players": "101096"
+    },
+    {
+        "name": "Counter-Strike: Source",
+        "appid": "240",
+        "total_reviews": 41517,
+        "rating": 96.08594069899078,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/header.jpg?t=1729702412",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/240/library_600x900.jpg",
+        "max_players": "100056"
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "appid": "1174180",
+        "total_reviews": 226299,
+        "rating": 91.12280655239307,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
+        "max_players": "99993"
+    },
+    {
+        "name": "Crusader Kings III",
+        "appid": "1158310",
+        "total_reviews": 42430,
+        "rating": 91.52250765967476,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/header.jpg?t=1736498603",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1158310/library_600x900.jpg",
+        "max_players": "98872"
+    },
+    {
+        "name": "DAVE THE DIVER",
+        "appid": "1868140",
+        "total_reviews": 40762,
+        "rating": 97.22045041950837,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg?t=1734352338",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1868140/library_600x900.jpg",
+        "max_players": "98480"
+    },
+    {
+        "name": "Portal 2",
+        "appid": "620",
+        "total_reviews": 154815,
+        "rating": 98.84959467751833,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1725487730",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/620/library_600x900.jpg",
+        "max_players": "98460"
+    },
+    {
+        "name": "ARK: Survival Ascended",
+        "appid": "2399830",
+        "total_reviews": 37618,
+        "rating": 58.958477324684985,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/header.jpg?t=1734731865",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2399830/library_600x900.jpg",
+        "max_players": "98047"
+    },
+    {
+        "name": "The Sims\u2122 4",
+        "appid": "1222670",
+        "total_reviews": 43779,
+        "rating": 88.57443066310331,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/header.jpg?t=1738870917",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1222670/library_600x900.jpg",
+        "max_players": "96328"
+    },
+    {
+        "name": "Kingdom Come: Deliverance",
+        "appid": "379430",
+        "total_reviews": 50990,
+        "rating": 83.11629731319866,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/header.jpg?t=1726645188",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/379430/library_600x900.jpg",
+        "max_players": "96069"
+    },
+    {
+        "name": "FINAL FANTASY XIV Online",
+        "appid": "39210",
+        "total_reviews": 56176,
+        "rating": 88.46660495585303,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg?t=1738089746",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/39210/library_600x900.jpg",
+        "max_players": "95150"
+    },
+    {
+        "name": "Chained Together",
+        "appid": "2567870",
+        "total_reviews": 16395,
+        "rating": 92.07685269899359,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2567870/header.jpg?t=1732288374",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2567870/library_600x900.jpg",
+        "max_players": "94480"
+    },
+    {
+        "name": "Football Manager 2021",
+        "appid": "1263850",
+        "total_reviews": 6035,
+        "rating": 93.91880695940348,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1263850/header.jpg?t=1671725363",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1263850/library_600x900.jpg",
+        "max_players": "93865"
+    },
+    {
+        "name": "Borderlands 3",
+        "appid": "397540",
+        "total_reviews": 52565,
+        "rating": 84.81499096356892,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/header.jpg?t=1731365610",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/397540/library_600x900.jpg",
+        "max_players": "93820"
+    },
+    {
+        "name": "Divinity: Original Sin 2 - Definitive Edition",
+        "appid": "435150",
+        "total_reviews": 77253,
+        "rating": 95.4448370937051,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg?t=1725653917",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/library_600x900.jpg",
+        "max_players": "93701"
+    },
+    {
+        "name": "Hearts of Iron IV",
+        "appid": "394360",
+        "total_reviews": 108519,
+        "rating": 91.80696467899631,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg?t=1735836462",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/394360/library_600x900.jpg",
+        "max_players": "93196"
+    },
+    {
+        "name": "Sins of a Solar Empire\u00ae: Rebellion",
+        "appid": "204880",
+        "total_reviews": 7157,
+        "rating": 94.66256811513205,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204880/header.jpg?t=1732728207",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/204880/library_600x900.jpg",
+        "max_players": "93109"
+    },
+    {
+        "name": "Far Cry\u00ae 5",
+        "appid": "552520",
+        "total_reviews": 62458,
+        "rating": 80.2843510839284,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1738249745",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/552520/library_600x900.jpg",
+        "max_players": "92445"
+    },
+    {
+        "name": "Sid Meier's Civilization\u00ae V",
+        "appid": "8930",
+        "total_reviews": 75187,
+        "rating": 95.58833308949686,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8930/header.jpg?t=1724341158",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/8930/library_600x900.jpg",
+        "max_players": "91363"
+    },
+    {
+        "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+        "appid": "287700",
+        "total_reviews": 37976,
+        "rating": 91.71582051822203,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/header.jpg?t=1727849445",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/287700/library_600x900.jpg",
+        "max_players": "91195"
+    },
+    {
+        "name": "Tomb Raider",
+        "appid": "203160",
+        "total_reviews": 45937,
+        "rating": 94.37272786642575,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/header.jpg?t=1729010886",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/203160/library_600x900.jpg",
+        "max_players": "89538"
+    },
+    {
+        "name": "Dragon Age\u2122: The Veilguard",
+        "appid": "1845910",
+        "total_reviews": 24625,
+        "rating": 69.91675126903554,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/header.jpg?t=1737678884",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1845910/library_600x900.jpg",
+        "max_players": "89418"
+    },
+    {
+        "name": "ENDLESS\u2122 Legend",
+        "appid": "289130",
+        "total_reviews": 9021,
+        "rating": 85.54483981820198,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289130/header.jpg?t=1728045983",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/289130/library_600x900.jpg",
+        "max_players": "89190"
+    },
+    {
+        "name": "Crosshair X",
+        "appid": "1366800",
+        "total_reviews": 14290,
+        "rating": 94.28271518544436,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366800/header.jpg?t=1738090209",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1366800/library_600x900.jpg",
+        "max_players": "89033"
+    },
+    {
+        "name": "Devil May Cry 5",
+        "appid": "601150",
+        "total_reviews": 30561,
+        "rating": 95.33392231929584,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg?t=1701395090",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/601150/library_600x900.jpg",
+        "max_players": "88894"
+    },
+    {
+        "name": "Football Manager 2022",
+        "appid": "1569040",
+        "total_reviews": 6041,
+        "rating": 93.82552557523589,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569040/header.jpg?t=1700159808",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1569040/library_600x900.jpg",
+        "max_players": "88767"
+    },
+    {
+        "name": "Starbound",
+        "appid": "211820",
+        "total_reviews": 51177,
+        "rating": 89.06540047286867,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/211820/header.jpg?t=1732026394",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/211820/library_600x900.jpg",
+        "max_players": "88709"
+    },
+    {
+        "name": "Geometry Dash",
+        "appid": "322170",
+        "total_reviews": 172286,
+        "rating": 93.64545000754559,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1703006148",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/322170/library_600x900.jpg",
+        "max_players": "88346"
+    },
+    {
+        "name": "BattleBit Remastered",
+        "appid": "671860",
+        "total_reviews": 74884,
+        "rating": 87.53538806687678,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671860/header.jpg?t=1730393449",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/671860/library_600x900.jpg",
+        "max_players": "87323"
+    },
+    {
+        "name": "Sid Meier's Civilization\u00ae: Beyond Earth\u2122",
+        "appid": "65980",
+        "total_reviews": 9730,
+        "rating": 57.45118191161357,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65980/header.jpg?t=1724341352",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/65980/library_600x900.jpg",
+        "max_players": "86892"
+    },
+    {
+        "name": "Need for Speed\u2122 Heat",
+        "appid": "1222680",
+        "total_reviews": 42406,
+        "rating": 84.77809743904164,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1716831270",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1222680/library_600x900.jpg",
+        "max_players": "86196"
+    },
+    {
+        "name": "Metaphor: ReFantazio",
+        "appid": "2679460",
+        "total_reviews": 9646,
+        "rating": 94.58843043748703,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/header.jpg?t=1736331314",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2679460/library_600x900.jpg",
+        "max_players": "85961"
+    },
+    {
+        "name": "Total War: WARHAMMER II",
+        "appid": "594570",
+        "total_reviews": 50084,
+        "rating": 93.47096877246226,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/header.jpg?t=1728485039",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/594570/library_600x900.jpg",
+        "max_players": "84920"
+    },
+    {
+        "name": "Football Manager 2023",
+        "appid": "1904540",
+        "total_reviews": 5541,
+        "rating": 89.15358238585092,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904540/header.jpg?t=1700157303",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1904540/library_600x900.jpg",
+        "max_players": "83715"
+    },
+    {
+        "name": "LEGO\u00ae Star Wars\u2122: The Skywalker Saga",
+        "appid": "920210",
+        "total_reviews": 24902,
+        "rating": 90.43450325275079,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header.jpg?t=1702937065",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/920210/library_600x900.jpg",
+        "max_players": "82517"
+    },
+    {
+        "name": "Forza Horizon 5",
+        "appid": "1551360",
+        "total_reviews": 74040,
+        "rating": 88.49270664505673,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1737050285",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_600x900.jpg",
+        "max_players": "81096"
+    },
+    {
+        "name": "DARK SOULS\u2122 II",
+        "appid": "236430",
+        "total_reviews": 14462,
+        "rating": 84.82920757848153,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236430/header.jpg?t=1726158600",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/236430/library_600x900.jpg",
+        "max_players": "79528"
+    },
+    {
+        "name": "DayZ",
+        "appid": "221100",
+        "total_reviews": 162502,
+        "rating": 72.83048824014475,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1738849174",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/library_600x900.jpg",
+        "max_players": "78937"
+    },
+    {
+        "name": "Little Nightmares",
+        "appid": "424840",
+        "total_reviews": 17392,
+        "rating": 94.38247470101196,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/header.jpg?t=1730127751",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/424840/library_600x900.jpg",
+        "max_players": "78169"
+    },
+    {
+        "name": "PAYDAY 3",
+        "appid": "1272080",
+        "total_reviews": 28732,
+        "rating": 42.50661283586245,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/header.jpg?t=1738668524",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1272080/library_600x900.jpg",
+        "max_players": "77938"
+    },
+    {
+        "name": "Ghost of Tsushima DIRECTOR'S CUT",
+        "appid": "2215430",
+        "total_reviews": 23907,
+        "rating": 93.76333291504581,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1737495883",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900.jpg",
+        "max_players": "77154"
+    },
+    {
+        "name": "Vampire Survivors",
+        "appid": "1794680",
+        "total_reviews": 118735,
+        "rating": 98.62635280245927,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg?t=1730983128",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/library_600x900.jpg",
+        "max_players": "77061"
+    },
+    {
+        "name": "Forza Horizon 4",
+        "appid": "1293830",
+        "total_reviews": 50790,
+        "rating": 89.17700334711557,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1293830/header.jpg?t=1734336342",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1293830/library_600x900.jpg",
+        "max_players": "75689"
+    },
+    {
+        "name": "Risk of Rain 2",
+        "appid": "632360",
+        "total_reviews": 140816,
+        "rating": 94.77900238609249,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg?t=1728672963",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/library_600x900.jpg",
+        "max_players": "75406"
+    },
+    {
+        "name": "Resident Evil 2",
+        "appid": "883710",
+        "total_reviews": 43635,
+        "rating": 96.81219204766816,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg?t=1728438541",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/883710/library_600x900.jpg",
+        "max_players": "74227"
+    },
+    {
+        "name": "Age of Empires IV: Anniversary Edition",
+        "appid": "1466860",
+        "total_reviews": 23059,
+        "rating": 86.59959235005854,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/header.jpg?t=1724793729",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1466860/library_600x900.jpg",
+        "max_players": "73928"
+    },
+    {
+        "name": "Garry's Mod",
+        "appid": "4000",
+        "total_reviews": 488517,
+        "rating": 97.0056313291042,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1736937068",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/4000/library_600x900.jpg",
+        "max_players": "73863"
+    },
+    {
+        "name": "God of War",
+        "appid": "1593500",
+        "total_reviews": 51474,
+        "rating": 96.72844542876014,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1729030762",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900.jpg",
+        "max_players": "73529"
+    },
+    {
+        "name": "Fallout 76",
+        "appid": "1151340",
+        "total_reviews": 37493,
+        "rating": 77.1477342437255,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/header.jpg?t=1733444184",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1151340/library_600x900.jpg",
+        "max_players": "73368"
+    },
+    {
+        "name": "Gray Zone Warfare",
+        "appid": "2479810",
+        "total_reviews": 35003,
+        "rating": 68.95123275147844,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/header.jpg?t=1737747460",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2479810/library_600x900.jpg",
+        "max_players": "72548"
+    },
+    {
+        "name": "It Takes Two",
+        "appid": "1426210",
+        "total_reviews": 37636,
+        "rating": 95.86566053778297,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg?t=1730911936",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/library_600x900.jpg",
+        "max_players": "71039"
+    },
+    {
+        "name": "The Binding of Isaac: Rebirth",
+        "appid": "250900",
+        "total_reviews": 122224,
+        "rating": 97.32049352009426,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/250900/library_600x900.jpg",
+        "max_players": "70701"
+    },
+    {
+        "name": "Street Fighter\u2122 6",
+        "appid": "1364780",
+        "total_reviews": 16029,
+        "rating": 87.46646702851082,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1738732388",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1364780/library_600x900.jpg",
+        "max_players": "70573"
+    },
+    {
+        "name": "XCOM: Enemy Unknown",
+        "appid": "200510",
+        "total_reviews": 23808,
+        "rating": 93.14096102150538,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200510/header.jpg?t=1587584126",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/200510/library_600x900.jpg",
+        "max_players": "70568"
+    },
+    {
+        "name": "Victoria 3",
+        "appid": "529340",
+        "total_reviews": 17339,
+        "rating": 68.12964992214083,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/header.jpg?t=1735836532",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/529340/library_600x900.jpg",
+        "max_players": "70100"
+    },
+    {
+        "name": "Killing Floor 2",
+        "appid": "232090",
+        "total_reviews": 40446,
+        "rating": 88.04084458290066,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg?t=1729011001",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/232090/library_600x900.jpg",
+        "max_players": "69987"
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "appid": "489830",
+        "total_reviews": 110045,
+        "rating": 94.51769730564769,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1721923149",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/489830/library_600x900.jpg",
+        "max_players": "69906"
+    },
+    {
+        "name": "Euro Truck Simulator 2",
+        "appid": "227300",
+        "total_reviews": 121971,
+        "rating": 97.60762804273146,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg?t=1738751887",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/227300/library_600x900.jpg",
+        "max_players": "69754"
+    },
+    {
+        "name": "Stellaris",
+        "appid": "281990",
+        "total_reviews": 68927,
+        "rating": 88.47911558605482,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/header.jpg?t=1738000689",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/281990/library_600x900.jpg",
+        "max_players": "68602"
+    },
+    {
+        "name": "SCUM",
+        "appid": "513710",
+        "total_reviews": 34455,
+        "rating": 74.92961834276592,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/header.jpg?t=1726482574",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/513710/library_600x900.jpg",
+        "max_players": "68322"
+    },
+    {
+        "name": "Borderlands: The Pre-Sequel",
+        "appid": "261640",
+        "total_reviews": 16993,
+        "rating": 80.90390160654387,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261640/header.jpg?t=1728608128",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/261640/library_600x900.jpg",
+        "max_players": "68238"
+    },
+    {
+        "name": "Middle-earth\u2122: Shadow of War\u2122",
+        "appid": "356190",
+        "total_reviews": 32040,
+        "rating": 88.05555555555556,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/header.jpg?t=1729788690",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/356190/library_600x900.jpg",
+        "max_players": "68183"
+    },
+    {
+        "name": "Cookie Clicker",
+        "appid": "1454400",
+        "total_reviews": 43107,
+        "rating": 96.76386665738744,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1738885868",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1454400/library_600x900.jpg",
+        "max_players": "67867"
+    },
+    {
+        "name": "STAR WARS Jedi: Survivor\u2122",
+        "appid": "1774580",
+        "total_reviews": 38822,
+        "rating": 67.3406831178198,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg?t=1701206599",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1774580/library_600x900.jpg",
+        "max_players": "67855"
+    },
+    {
+        "name": "Sea of Thieves: 2024 Edition",
+        "appid": "1172620",
+        "total_reviews": 134744,
+        "rating": 89.87561598290091,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg?t=1729267948",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/library_600x900.jpg",
+        "max_players": "66906"
+    },
+    {
+        "name": "Marvel\u2019s Spider-Man Remastered",
+        "appid": "1817070",
+        "total_reviews": 44991,
+        "rating": 96.57042519615034,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1725652915",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/library_600x900.jpg",
+        "max_players": "66436"
+    },
+    {
+        "name": "Back 4 Blood",
+        "appid": "924970",
+        "total_reviews": 23554,
+        "rating": 71.67360108686422,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/924970/header.jpg?t=1729789180",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/924970/library_600x900.jpg",
+        "max_players": "65987"
+    },
+    {
+        "name": "Project Zomboid",
+        "appid": "108600",
+        "total_reviews": 119802,
+        "rating": 94.23131500308844,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1691508011",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/108600/library_600x900.jpg",
+        "max_players": "65505"
+    },
+    {
+        "name": "BioShock Infinite",
+        "appid": "8870",
+        "total_reviews": 45321,
+        "rating": 91.40795657642153,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg?t=1728673518",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/8870/library_600x900.jpg",
+        "max_players": "65332"
+    },
+    {
+        "name": "Half-Life 2",
+        "appid": "220",
+        "total_reviews": 78642,
+        "rating": 97.3576460415554,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1737139959",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/220/library_600x900.jpg",
+        "max_players": "64085"
+    },
+    {
+        "name": "Call of Duty\u00ae: Black Ops III",
+        "appid": "311210",
+        "total_reviews": 103935,
+        "rating": 89.71664982922019,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg?t=1646763462",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/311210/library_600x900.jpg",
+        "max_players": "63681"
+    },
+    {
+        "name": "Call of Duty\u00ae: Black Ops",
+        "appid": "42700",
+        "total_reviews": 13068,
+        "rating": 90.61065197428833,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg?t=1654809667",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/42700/library_600x900.jpg",
+        "max_players": "63343"
+    },
+    {
+        "name": "Stray",
+        "appid": "1332010",
+        "total_reviews": 70369,
+        "rating": 97.41789708536429,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1332010/library_600x900.jpg",
+        "max_players": "62963"
+    },
+    {
+        "name": "RimWorld",
+        "appid": "294100",
+        "total_reviews": 102234,
+        "rating": 98.02903143768218,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg?t=1734154189",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/294100/library_600x900.jpg",
+        "max_players": "62257"
+    },
+    {
+        "name": "Assassin's Creed\u00ae Odyssey",
+        "appid": "812140",
+        "total_reviews": 52861,
+        "rating": 89.64264769868144,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1736257794",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/812140/library_600x900.jpg",
+        "max_players": "62069"
+    },
+    {
+        "name": "Microsoft Flight Simulator 40th Anniversary Edition",
+        "appid": "1250410",
+        "total_reviews": 39853,
+        "rating": 78.54113868466615,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/header.jpg?t=1737585853",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1250410/library_600x900.jpg",
+        "max_players": "61829"
+    },
+    {
+        "name": "Cult of the Lamb",
+        "appid": "1313140",
+        "total_reviews": 48034,
+        "rating": 96.19436232668527,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg?t=1729515117",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1313140/library_600x900.jpg",
+        "max_players": "61780"
+    },
+    {
+        "name": "Grim Dawn",
+        "appid": "219990",
+        "total_reviews": 35898,
+        "rating": 95.15850465206975,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/header.jpg?t=1726250949",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/219990/library_600x900.jpg",
+        "max_players": "61458"
+    },
+    {
+        "name": "Artifact",
+        "appid": "583950",
+        "total_reviews": 8102,
+        "rating": 56.94890150580104,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/583950/header.jpg?t=1677266975",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/583950/library_600x900.jpg",
+        "max_players": "60646"
+    },
+    {
+        "name": "Black Desert",
+        "appid": "582660",
+        "total_reviews": 33985,
+        "rating": 73.09695453876711,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/header.jpg?t=1737361455",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/582660/library_600x900.jpg",
+        "max_players": "60395"
+    },
+    {
+        "name": "Cities: Skylines",
+        "appid": "255710",
+        "total_reviews": 93950,
+        "rating": 93.15486961149547,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1735836158",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/255710/library_600x900.jpg",
+        "max_players": "60386"
+    },
+    {
+        "name": "Jurassic World Evolution",
+        "appid": "648350",
+        "total_reviews": 22713,
+        "rating": 86.42187293620394,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648350/header.jpg?t=1728993177",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/648350/library_600x900.jpg",
+        "max_players": "60296"
+    },
+    {
+        "name": "Resident Evil 3",
+        "appid": "952060",
+        "total_reviews": 22237,
+        "rating": 81.33291361244773,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg?t=1728438347",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/952060/library_600x900.jpg",
+        "max_players": "60293"
+    },
+    {
+        "name": "Tales of Arise",
+        "appid": "740130",
+        "total_reviews": 10457,
+        "rating": 88.66787797647508,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/740130/header.jpg?t=1735264482",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/740130/library_600x900.jpg",
+        "max_players": "60274"
+    },
+    {
+        "name": "MORDHAU",
+        "appid": "629760",
+        "total_reviews": 58740,
+        "rating": 81.6615594143684,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629760/header.jpg?t=1730193715",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/629760/library_600x900.jpg",
+        "max_players": "60204"
+    },
+    {
+        "name": "Hunt: Showdown 1896",
+        "appid": "594650",
+        "total_reviews": 86743,
+        "rating": 76.12602746042909,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/header_alt_assets_20.jpg?t=1738606055",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/library_600x900.jpg",
+        "max_players": "60124"
+    },
+    {
+        "name": "Mass Effect\u2122 Legendary Edition",
+        "appid": "1328670",
+        "total_reviews": 33833,
+        "rating": 91.27479088463926,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg?t=1725576882",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1328670/library_600x900.jpg",
+        "max_players": "59817"
+    },
+    {
+        "name": "Dyson Sphere Program",
+        "appid": "1366540",
+        "total_reviews": 22382,
+        "rating": 96.62675364131891,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg?t=1730445887",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1366540/library_600x900.jpg",
+        "max_players": "59815"
+    },
+    {
+        "name": "Farming Simulator 19",
+        "appid": "787860",
+        "total_reviews": 23571,
+        "rating": 93.64897543591701,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787860/header.jpg?t=1674664652",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/787860/library_600x900.jpg",
+        "max_players": "59466"
+    },
+    {
+        "name": "NBA 2K23",
+        "appid": "1919590",
+        "total_reviews": 16836,
+        "rating": 69.06628652886671,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1919590/header.jpg?t=1733342264",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1919590/library_600x900.jpg",
+        "max_players": "59006"
+    },
+    {
+        "name": "ATLAS",
+        "appid": "834910",
+        "total_reviews": 19662,
+        "rating": 47.40616417454989,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/834910/header.jpg?t=1694646023",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/834910/library_600x900.jpg",
+        "max_players": "58939"
+    },
+    {
+        "name": "Deep Rock Galactic: Survivor",
+        "appid": "2321470",
+        "total_reviews": 17197,
+        "rating": 87.76530790254114,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header_alt_assets_9.jpg?t=1736238554",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2321470/library_600x900.jpg",
+        "max_players": "56943"
+    },
+    {
+        "name": "Arma 3",
+        "appid": "107410",
+        "total_reviews": 105265,
+        "rating": 91.65344606469387,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/header.jpg?t=1734677868",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/107410/library_600x900.jpg",
+        "max_players": "56679"
+    },
+    {
+        "name": "Horizon Zero Dawn\u2122 Complete Edition",
+        "appid": "1151640",
+        "total_reviews": 50287,
+        "rating": 89.5897548074055,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg?t=1736534555",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/library_600x900.jpg",
+        "max_players": "56557"
+    },
+    {
+        "name": "The Crew\u2122 2",
+        "appid": "646910",
+        "total_reviews": 24574,
+        "rating": 77.11402295108651,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646910/header.jpg?t=1736258631",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/646910/library_600x900.jpg",
+        "max_players": "55907"
+    },
+    {
+        "name": "Diablo\u00ae IV",
+        "appid": "2344520",
+        "total_reviews": 11796,
+        "rating": 74.31332655137335,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg?t=1737494669",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2344520/library_600x900.jpg",
+        "max_players": "55561"
+    },
+    {
+        "name": "HUMANKIND\u2122",
+        "appid": "1124300",
+        "total_reviews": 11446,
+        "rating": 67.98008037742443,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1124300/header.jpg?t=1737652199",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1124300/library_600x900.jpg",
+        "max_players": "55284"
+    },
+    {
+        "name": "Ready or Not",
+        "appid": "1144200",
+        "total_reviews": 95867,
+        "rating": 89.83904784753878,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg?t=1733935197",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1144200/library_600x900.jpg",
+        "max_players": "55174"
+    },
+    {
+        "name": "BIOMUTANT",
+        "appid": "597820",
+        "total_reviews": 8070,
+        "rating": 70.89219330855019,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597820/header.jpg?t=1696421418",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/597820/library_600x900.jpg",
+        "max_players": "55048"
+    },
+    {
+        "name": "Torchlight II",
+        "appid": "200710",
+        "total_reviews": 16949,
+        "rating": 93.47454127087144,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200710/header.jpg?t=1712608749",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/200710/library_600x900.jpg",
+        "max_players": "54821"
+    },
+    {
+        "name": "Hades",
+        "appid": "1145360",
+        "total_reviews": 128364,
+        "rating": 98.57670374871459,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1715722799",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900.jpg",
+        "max_players": "54240"
+    },
+    {
+        "name": "Deep Rock Galactic",
+        "appid": "548430",
+        "total_reviews": 155948,
+        "rating": 97.97240105676252,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/header_alt_assets_20.jpg?t=1738238209",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/library_600x900.jpg",
+        "max_players": "54160"
+    },
+    {
+        "name": "Total War: SHOGUN 2",
+        "appid": "34330",
+        "total_reviews": 19746,
+        "rating": 92.4136533981566,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201270/header.jpg?t=1724864318",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/34330/library_600x900.jpg",
+        "max_players": "54115"
+    },
+    {
+        "name": "Bloons TD 6",
+        "appid": "960090",
+        "total_reviews": 201641,
+        "rating": 97.42314311077608,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1723603688",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/960090/library_600x900.jpg",
+        "max_players": "53943"
+    },
+    {
+        "name": "Battlefield\u2122 1",
+        "appid": "1238840",
+        "total_reviews": 34279,
+        "rating": 87.04162898567637,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg?t=1730828840",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1238840/library_600x900.jpg",
+        "max_players": "53714"
+    },
+    {
+        "name": "TCG Card Shop Simulator",
+        "appid": "3070070",
+        "total_reviews": 24539,
+        "rating": 97.95427686539794,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/header.jpg?t=1729839700",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/3070070/library_600x900.jpg",
+        "max_players": "53453"
+    },
+    {
+        "name": "ENDLESS\u2122 Space 2",
+        "appid": "392110",
+        "total_reviews": 8965,
+        "rating": 83.15672058003346,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/392110/header.jpg?t=1728046125",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/392110/library_600x900.jpg",
+        "max_players": "53435"
+    },
+    {
+        "name": "Conan Exiles",
+        "appid": "440900",
+        "total_reviews": 35293,
+        "rating": 79.37268013487093,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/header.jpg?t=1734616906",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/440900/library_600x900.jpg",
+        "max_players": "53402"
+    },
+    {
+        "name": "ICARUS",
+        "appid": "1149460",
+        "total_reviews": 21690,
+        "rating": 75.15444905486399,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1149460/header.jpg?t=1737051079",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1149460/library_600x900.jpg",
+        "max_players": "52501"
+    },
+    {
+        "name": "Deus Ex: Mankind Divided",
+        "appid": "337000",
+        "total_reviews": 15619,
+        "rating": 74.7230936679685,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337000/header.jpg?t=1729006346",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/337000/library_600x900.jpg",
+        "max_players": "52485"
+    },
+    {
+        "name": "HITMAN\u2122",
+        "appid": "236870",
+        "total_reviews": 11271,
+        "rating": 81.27051725667643,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236870/header.jpg?t=1674758373",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/236870/library_600x900.jpg",
+        "max_players": "51650"
+    },
+    {
+        "name": "Supermarket Simulator",
+        "appid": "2670630",
+        "total_reviews": 25189,
+        "rating": 94.78740720155623,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/header.jpg?t=1730737834",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2670630/library_600x900.jpg",
+        "max_players": "51363"
+    },
+    {
+        "name": "Subnautica",
+        "appid": "264710",
+        "total_reviews": 156239,
+        "rating": 96.8656993452339,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1729208919",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/264710/library_600x900.jpg",
+        "max_players": "51156"
+    },
+    {
+        "name": "Loop Hero",
+        "appid": "1282730",
+        "total_reviews": 15144,
+        "rating": 91.60063391442155,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282730/header.jpg?t=1719953367",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1282730/library_600x900.jpg",
+        "max_players": "51156"
+    },
+    {
+        "name": "Evolve Stage 2",
+        "appid": "273350",
+        "total_reviews": 5138,
+        "rating": 65.12261580381471,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/273350/header.jpg?t=1568755531",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/273350/library_600x900.jpg",
+        "max_players": "51127"
+    },
+    {
+        "name": "Fallout: New Vegas",
+        "appid": "22380",
+        "total_reviews": 143254,
+        "rating": 96.29678752425761,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1665072891",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/22380/library_600x900.jpg",
+        "max_players": "51038"
+    },
+    {
+        "name": "PAYDAY\u2122 The Heist",
+        "appid": "24240",
+        "total_reviews": 8272,
+        "rating": 92.62572533849129,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24240/header.jpg?t=1728043170",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/24240/library_600x900.jpg",
+        "max_players": "50316"
+    },
+    {
+        "name": "TEKKEN 8",
+        "appid": "1778820",
+        "total_reviews": 17213,
+        "rating": 74.58897345029919,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/header.jpg?t=1737623581",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_600x900.jpg",
+        "max_players": "49977"
+    },
+    {
+        "name": "The Elder Scrolls\u00ae Online",
+        "appid": "306130",
+        "total_reviews": 68923,
+        "rating": 82.60812791085705,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/header.jpg?t=1736445894",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/306130/library_600x900.jpg",
+        "max_players": "49234"
+    },
+    {
+        "name": "Middle-earth\u2122: Shadow of Mordor\u2122",
+        "appid": "241930",
+        "total_reviews": 30581,
+        "rating": 91.64840914293188,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/header.jpg?t=1729788851",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/241930/library_600x900.jpg",
+        "max_players": "48668"
+    },
+    {
+        "name": "NBA 2K20",
+        "appid": "1089350",
+        "total_reviews": 10254,
+        "rating": 61.449190559781556,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089350/header.jpg?t=1663810795",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1089350/library_600x900.jpg",
+        "max_players": "48375"
+    },
+    {
+        "name": "Remnant: From the Ashes",
+        "appid": "617290",
+        "total_reviews": 23147,
+        "rating": 86.8795092236575,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/617290/header.jpg?t=1717106812",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/617290/library_600x900.jpg",
+        "max_players": "48289"
+    },
+    {
+        "name": "Europa Universalis IV",
+        "appid": "236850",
+        "total_reviews": 45780,
+        "rating": 87.02708606378332,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1738000732",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/236850/library_600x900.jpg",
+        "max_players": "48165"
+    },
+    {
+        "name": "Watch_Dogs\u2122",
+        "appid": "243470",
+        "total_reviews": 16509,
+        "rating": 73.07529226482524,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/243470/header.jpg?t=1692817688",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/243470/library_600x900.jpg",
+        "max_players": "47887"
+    },
+    {
+        "name": "Mafia III: Definitive Edition",
+        "appid": "360430",
+        "total_reviews": 13554,
+        "rating": 60.88239634056367,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/360430/header.jpg?t=1734461799",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/360430/library_600x900.jpg",
+        "max_players": "47822"
+    },
+    {
+        "name": "Nightingale",
+        "appid": "1928980",
+        "total_reviews": 9089,
+        "rating": 71.70205743206073,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1928980/header.jpg?t=1736875289",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1928980/library_600x900.jpg",
+        "max_players": "47569"
+    },
+    {
+        "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+        "appid": "1184370",
+        "total_reviews": 15768,
+        "rating": 82.35032978183663,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header.jpg?t=1738169076",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1184370/library_600x900.jpg",
+        "max_players": "46724"
+    },
+    {
+        "name": "NBA 2K22",
+        "appid": "1644960",
+        "total_reviews": 11860,
+        "rating": 68.49915682967959,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1644960/header.jpg?t=1704736929",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1644960/library_600x900.jpg",
+        "max_players": "46661"
+    },
+    {
+        "name": "Scrap Mechanic",
+        "appid": "387990",
+        "total_reviews": 44068,
+        "rating": 91.38150131614778,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/387990/header.jpg?t=1727183889",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/387990/library_600x900.jpg",
+        "max_players": "46643"
+    },
+    {
+        "name": "STAR WARS Jedi: Fallen Order\u2122",
+        "appid": "1172380",
+        "total_reviews": 74808,
+        "rating": 89.08004491498235,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/header.jpg?t=1725901454",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1172380/library_600x900.jpg",
+        "max_players": "46550"
+    },
+    {
+        "name": "Core Keeper",
+        "appid": "1621690",
+        "total_reviews": 19041,
+        "rating": 95.00551441625966,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg?t=1733757050",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1621690/library_600x900.jpg",
+        "max_players": "46465"
+    },
+    {
+        "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011)",
+        "appid": "42680",
+        "total_reviews": 6223,
+        "rating": 87.88365739996786,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115300/header.jpg?t=1692032509",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/42680/library_600x900.jpg",
+        "max_players": "46327"
+    },
+    {
+        "name": "Like a Dragon: Infinite Wealth",
+        "appid": "2072450",
+        "total_reviews": 5866,
+        "rating": 92.68666893965222,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg?t=1734428971",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2072450/library_600x900.jpg",
+        "max_players": "46161"
+    },
+    {
+        "name": "Dying Light",
+        "appid": "239140",
+        "total_reviews": 85919,
+        "rating": 94.3074290901896,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/header.jpg?t=1738004178",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/239140/library_600x900.jpg",
+        "max_players": "45876"
+    },
+    {
+        "name": "Tom Clancy's Ghost Recon\u00ae Wildlands",
+        "appid": "460930",
+        "total_reviews": 33333,
+        "rating": 80.83880838808388,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg?t=1734366779",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/460930/library_600x900.jpg",
+        "max_players": "45704"
+    },
+    {
+        "name": "Warhammer 40,000: Rogue Trader",
+        "appid": "2186680",
+        "total_reviews": 11440,
+        "rating": 82.47377622377621,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186680/header.jpg?t=1738572134",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2186680/library_600x900.jpg",
+        "max_players": "45405"
+    },
+    {
+        "name": "Battlerite",
+        "appid": "504370",
+        "total_reviews": 9874,
+        "rating": 88.02916751063398,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504370/header.jpg?t=1724769806",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/504370/library_600x900.jpg",
+        "max_players": "45145"
+    },
+    {
+        "name": "Risk of Rain Returns",
+        "appid": "1337520",
+        "total_reviews": 16052,
+        "rating": 95.1345626713182,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg?t=1721064585",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1337520/library_600x900.jpg",
+        "max_players": "45141"
+    },
+    {
+        "name": "Persona 3 Reload",
+        "appid": "2161700",
+        "total_reviews": 14996,
+        "rating": 96.83915710856228,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1725556209",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2161700/library_600x900.jpg",
+        "max_players": "45002"
+    },
+    {
+        "name": "Rise of the Tomb Raider\u2122",
+        "appid": "391220",
+        "total_reviews": 26961,
+        "rating": 92.41867883238753,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/header.jpg?t=1729011444",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/391220/library_600x900.jpg",
+        "max_players": "44588"
+    },
+    {
+        "name": "EA SPORTS\u2122 FIFA 21",
+        "appid": "1313860",
+        "total_reviews": 12875,
+        "rating": 75.65825242718446,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313860/header.jpg?t=1678115726",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1313860/library_600x900.jpg",
+        "max_players": "44388"
+    },
+    {
+        "name": "DRAGON BALL FighterZ",
+        "appid": "678950",
+        "total_reviews": 24690,
+        "rating": 91.27987039287162,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678950/header.jpg?t=1733508969",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/678950/library_600x900.jpg",
+        "max_players": "44303"
+    },
+    {
+        "name": "DOOM",
+        "appid": "379720",
+        "total_reviews": 76104,
+        "rating": 95.59944286765479,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1692892793",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/379720/library_600x900.jpg",
+        "max_players": "44271"
+    },
+    {
+        "name": "Balatro",
+        "appid": "2379780",
+        "total_reviews": 65944,
+        "rating": 98.3531481256824,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/header.jpg?t=1737470132",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/library_600x900.jpg",
+        "max_players": "43905"
+    },
+    {
+        "name": "Lords of the Fallen",
+        "appid": "1501750",
+        "total_reviews": 13292,
+        "rating": 70.04213060487511,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1501750/header_alt_assets_2.jpg?t=1738853907",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1501750/library_600x900.jpg",
+        "max_players": "43075"
+    },
+    {
+        "name": "Age of Wonders 4",
+        "appid": "1669000",
+        "total_reviews": 8101,
+        "rating": 82.81693618071843,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669000/header.jpg?t=1735836601",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1669000/library_600x900.jpg",
+        "max_players": "42877"
+    },
+    {
+        "name": "Half-Life: Alyx",
+        "appid": "546560",
+        "total_reviews": 56906,
+        "rating": 98.22514321864126,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg?t=1673391297",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/546560/library_600x900.jpg",
+        "max_players": "42858"
+    },
+    {
+        "name": "Command & Conquer\u2122 Remastered Collection",
+        "appid": "1213210",
+        "total_reviews": 16418,
+        "rating": 91.88086246802291,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213210/header.jpg?t=1659021785",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213210/library_600x900.jpg",
+        "max_players": "42587"
+    },
+    {
+        "name": "Saints Row IV: Re-Elected",
+        "appid": "206420",
+        "total_reviews": 23029,
+        "rating": 84.46306830518043,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg?t=1725437675",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/206420/library_600x900.jpg",
+        "max_players": "42270"
+    },
+    {
+        "name": "Subnautica: Below Zero",
+        "appid": "848450",
+        "total_reviews": 49705,
+        "rating": 90.23237098883412,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1729209036",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/848450/library_600x900.jpg",
+        "max_players": "42115"
+    },
+    {
+        "name": "Imperator: Rome",
+        "appid": "859580",
+        "total_reviews": 12127,
+        "rating": 66.33957285396224,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/859580/header.jpg?t=1714031927",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/859580/library_600x900.jpg",
+        "max_players": "41945"
+    },
+    {
+        "name": "Pillars of Eternity",
+        "appid": "291650",
+        "total_reviews": 9886,
+        "rating": 86.74893789196844,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/header.jpg?t=1683221851",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/291650/library_600x900.jpg",
+        "max_players": "41906"
+    },
+    {
+        "name": "Assassin's Creed\u00ae Origins",
+        "appid": "582160",
+        "total_reviews": 31662,
+        "rating": 83.68391131324616,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/header.jpg?t=1736247595",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/582160/library_600x900.jpg",
+        "max_players": "41551"
+    },
+    {
+        "name": "Nioh 2 \u2013 The Complete Edition",
+        "appid": "1325200",
+        "total_reviews": 9238,
+        "rating": 91.40506603160857,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1737983066",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1325200/library_600x900.jpg",
+        "max_players": "41325"
+    },
+    {
+        "name": "NBA 2K25",
+        "appid": "2878980",
+        "total_reviews": 5702,
+        "rating": 63.94247632409681,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878980/header.jpg?t=1736525487",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2878980/library_600x900.jpg",
+        "max_players": "40856"
+    },
+    {
+        "name": "Horizon Forbidden West\u2122 Complete Edition",
+        "appid": "2420110",
+        "total_reviews": 7946,
+        "rating": 89.3279637553486,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg?t=1737564719",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2420110/library_600x900.jpg",
+        "max_players": "40462"
+    },
+    {
+        "name": "Temtem",
+        "appid": "745920",
+        "total_reviews": 17802,
+        "rating": 83.05808336142006,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/745920/header.jpg?t=1731529454",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/745920/library_600x900.jpg",
+        "max_players": "39572"
+    },
+    {
+        "name": "Brotato",
+        "appid": "1942280",
+        "total_reviews": 23663,
+        "rating": 96.81359083801716,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/header.jpg?t=1738865051",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1942280/library_600x900.jpg",
+        "max_players": "38905"
+    },
+    {
+        "name": "Age of Empires II: Definitive Edition",
+        "appid": "813780",
+        "total_reviews": 53349,
+        "rating": 95.06457478115804,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1731939100",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/library_600x900.jpg",
+        "max_players": "38725"
+    },
+    {
+        "name": "Planet Zoo",
+        "appid": "703080",
+        "total_reviews": 37663,
+        "rating": 91.26198125481241,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/header.jpg?t=1728993033",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/703080/library_600x900.jpg",
+        "max_players": "38630"
+    },
+    {
+        "name": "Squad",
+        "appid": "393380",
+        "total_reviews": 76014,
+        "rating": 85.87497040018944,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/header.jpg?t=1734053306",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/393380/library_600x900.jpg",
+        "max_players": "38573"
+    },
+    {
+        "name": "Atomic Heart",
+        "appid": "668580",
+        "total_reviews": 9897,
+        "rating": 80.11518642012732,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header_alt_assets_1.jpg?t=1738142799",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/668580/library_600x900.jpg",
+        "max_players": "38469"
+    },
+    {
+        "name": "Shadow of the Tomb Raider: Definitive Edition",
+        "appid": "750920",
+        "total_reviews": 20580,
+        "rating": 85.03887269193392,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/header.jpg?t=1729014037",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/750920/library_600x900.jpg",
+        "max_players": "38268"
+    },
+    {
+        "name": "Mortal Kombat 1",
+        "appid": "1971870",
+        "total_reviews": 12749,
+        "rating": 70.88399090124715,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1729006754",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1971870/library_600x900.jpg",
+        "max_players": "38129"
+    },
+    {
+        "name": "The Day Before",
+        "appid": "1372880",
+        "total_reviews": 9264,
+        "rating": 13.460708117443868,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372880/header.jpg?t=1702943333",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1372880/library_600x900.jpg",
+        "max_players": "38104"
+    },
+    {
+        "name": "Tabletop Simulator",
+        "appid": "286160",
+        "total_reviews": 28092,
+        "rating": 96.29075893492809,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg?t=1720948345",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/286160/library_600x900.jpg",
+        "max_players": "37198"
+    },
+    {
+        "name": "Evil Genius 2: World Domination",
+        "appid": "700600",
+        "total_reviews": 7029,
+        "rating": 67.77635510029876,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700600/header.jpg?t=1734453187",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/700600/library_600x900.jpg",
+        "max_players": "37117"
+    },
+    {
+        "name": "The Outlast Trials",
+        "appid": "1304930",
+        "total_reviews": 24146,
+        "rating": 94.6160854799967,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/header.jpg?t=1736457615",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1304930/library_600x900.jpg",
+        "max_players": "36689"
+    },
+    {
+        "name": "Mafia: Definitive Edition",
+        "appid": "1030840",
+        "total_reviews": 22592,
+        "rating": 87.08392351274787,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1734460692",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1030840/library_600x900.jpg",
+        "max_players": "36679"
+    },
+    {
+        "name": "Company of Heroes 3",
+        "appid": "1677280",
+        "total_reviews": 10167,
+        "rating": 60.96193567424019,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677280/header.jpg?t=1738781258",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1677280/library_600x900.jpg",
+        "max_players": "36646"
+    },
+    {
+        "name": "The Last of Us\u2122 Part I",
+        "appid": "1888930",
+        "total_reviews": 19461,
+        "rating": 77.70412620112019,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1736371681",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1888930/library_600x900.jpg",
+        "max_players": "36496"
+    },
+    {
+        "name": "STAR WARS\u2122: Squadrons",
+        "appid": "1222730",
+        "total_reviews": 18189,
+        "rating": 69.3825938754192,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222730/header.jpg?t=1734376982",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1222730/library_600x900.jpg",
+        "max_players": "36492"
+    },
+    {
+        "name": "No Rest for the Wicked",
+        "appid": "1371980",
+        "total_reviews": 9231,
+        "rating": 81.5729606759831,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/header.jpg?t=1723482971",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1371980/library_600x900.jpg",
+        "max_players": "36276"
+    },
+    {
+        "name": "XCOM\u00ae: Chimera Squad",
+        "appid": "882100",
+        "total_reviews": 12449,
+        "rating": 74.66463169732509,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/882100/header.jpg?t=1603903072",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/882100/library_600x900.jpg",
+        "max_players": "35955"
+    },
+    {
+        "name": "Wartales",
+        "appid": "1527950",
+        "total_reviews": 10845,
+        "rating": 88.45550945136007,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1527950/header.jpg?t=1734613770",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1527950/library_600x900.jpg",
+        "max_players": "35879"
+    },
+    {
+        "name": "BATTLETECH",
+        "appid": "637090",
+        "total_reviews": 16990,
+        "rating": 85.2030606238964,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637090/header.jpg?t=1726497883",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/637090/library_600x900.jpg",
+        "max_players": "35767"
+    },
+    {
+        "name": "God of War Ragnar\u00f6k",
+        "appid": "2322010",
+        "total_reviews": 8562,
+        "rating": 86.69703340341042,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1738256985",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2322010/library_600x900.jpg",
+        "max_players": "35615"
+    },
+    {
+        "name": "Frostpunk 2",
+        "appid": "1601580",
+        "total_reviews": 7094,
+        "rating": 80.01127713560756,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg?t=1738749725",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1601580/library_600x900.jpg",
+        "max_players": "35533"
+    },
+    {
+        "name": "Persona 5 Royal",
+        "appid": "1687950",
+        "total_reviews": 24423,
+        "rating": 96.937313188388,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1733297467",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1687950/library_600x900.jpg",
+        "max_players": "35474"
+    },
+    {
+        "name": "Gunfire Reborn",
+        "appid": "1217060",
+        "total_reviews": 34497,
+        "rating": 96.34171087340928,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/header.jpg?t=1737351766",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1217060/library_600x900.jpg",
+        "max_players": "35263"
+    },
+    {
+        "name": "Dungeon of the ENDLESS\u2122",
+        "appid": "249050",
+        "total_reviews": 6446,
+        "rating": 87.65125659323611,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249050/header.jpg?t=1689949161",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/249050/library_600x900.jpg",
+        "max_players": "35159"
+    },
+    {
+        "name": "Mortal Kombat\u00a011",
+        "appid": "976310",
+        "total_reviews": 23608,
+        "rating": 86.81379193493731,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976310/header.jpg?t=1699983920",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/976310/library_600x900.jpg",
+        "max_players": "35147"
+    },
+    {
+        "name": "South Park\u2122: The Stick of Truth\u2122",
+        "appid": "213670",
+        "total_reviews": 28032,
+        "rating": 97.09260844748859,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/header.jpg?t=1680013652",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/213670/library_600x900.jpg",
+        "max_players": "34811"
+    },
+    {
+        "name": "Ori and the Will of the Wisps",
+        "appid": "1057090",
+        "total_reviews": 28421,
+        "rating": 96.91073501987967,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1701967625",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/library_600x900.jpg",
+        "max_players": "34807"
+    },
+    {
+        "name": "Saints Row: The Third",
+        "appid": "55230",
+        "total_reviews": 18509,
+        "rating": 94.38111189151223,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/header.jpg?t=1725434603",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/55230/library_600x900.jpg",
+        "max_players": "34371"
+    },
+    {
+        "name": "Two Point Hospital",
+        "appid": "535930",
+        "total_reviews": 11936,
+        "rating": 93.22218498659517,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/header.jpg?t=1726486228",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/535930/library_600x900.jpg",
+        "max_players": "34009"
+    },
+    {
+        "name": "CODE VEIN",
+        "appid": "678960",
+        "total_reviews": 17462,
+        "rating": 87.57874241209484,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/678960/header.jpg?t=1701310785",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/678960/library_600x900.jpg",
+        "max_players": "33895"
+    },
+    {
+        "name": "Half-Life",
+        "appid": "70",
+        "total_reviews": 51426,
+        "rating": 96.48037957453428,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70/header.jpg?t=1738795025",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/70/library_600x900.jpg",
+        "max_players": "33471"
+    },
+    {
+        "name": "Mad Max",
+        "appid": "234140",
+        "total_reviews": 23607,
+        "rating": 91.21023425255221,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234140/header.jpg?t=1732555043",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/234140/library_600x900.jpg",
+        "max_players": "33356"
+    },
+    {
+        "name": "Last Oasis",
+        "appid": "903950",
+        "total_reviews": 10804,
+        "rating": 69.77971121806739,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg?t=1694646629",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/903950/library_600x900.jpg",
+        "max_players": "33287"
+    },
+    {
+        "name": "Slay the Spire",
+        "appid": "646570",
+        "total_reviews": 63355,
+        "rating": 97.81706258385289,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1732020340",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/library_600x900.jpg",
+        "max_players": "33086"
+    },
+    {
+        "name": "Mount & Blade: Warband",
+        "appid": "48700",
+        "total_reviews": 53519,
+        "rating": 97.72230422840487,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48700/header.jpg?t=1728557946",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/48700/library_600x900.jpg",
+        "max_players": "33054"
+    },
+    {
+        "name": "Counter-Strike: Condition Zero",
+        "appid": "80",
+        "total_reviews": 6752,
+        "rating": 91.20260663507109,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/80/header.jpg?t=1729702001",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/80/library_600x900.jpg",
+        "max_players": "32748"
+    },
+    {
+        "name": "Farming Simulator 17",
+        "appid": "447020",
+        "total_reviews": 6821,
+        "rating": 92.81630259492742,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447020/header.jpg?t=1658488796",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/447020/library_600x900.jpg",
+        "max_players": "32313"
+    },
+    {
+        "name": "Grounded",
+        "appid": "962130",
+        "total_reviews": 34591,
+        "rating": 92.3737388338007,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1727719725",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/962130/library_600x900.jpg",
+        "max_players": "32012"
+    },
+    {
+        "name": "NBA 2K21",
+        "appid": "1225330",
+        "total_reviews": 7915,
+        "rating": 53.56917245735945,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225330/header.jpg?t=1675896152",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1225330/library_600x900.jpg",
+        "max_players": "31826"
+    },
+    {
+        "name": "Marvel's Avengers - The Definitive Edition",
+        "appid": "997070",
+        "total_reviews": 12484,
+        "rating": 67.70265940403716,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/997070/header.jpg?t=1696093345",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/997070/library_600x900.jpg",
+        "max_players": "31165"
+    },
+    {
+        "name": "GUILTY GEAR -STRIVE-",
+        "appid": "1384160",
+        "total_reviews": 28715,
+        "rating": 92.22009402751176,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1384160/header.jpg?t=1731308439",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1384160/library_600x900.jpg",
+        "max_players": "31156"
+    },
+    {
+        "name": "Medieval Dynasty",
+        "appid": "1129580",
+        "total_reviews": 16213,
+        "rating": 89.63794485906371,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1129580/header.jpg?t=1737715108",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1129580/library_600x900.jpg",
+        "max_players": "31057"
+    },
+    {
+        "name": "Tribes of Midgard",
+        "appid": "858820",
+        "total_reviews": 6491,
+        "rating": 75.05777230010784,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858820/header.jpg?t=1734647761",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/858820/library_600x900.jpg",
+        "max_players": "30930"
+    },
+    {
+        "name": "Dead Space",
+        "appid": "1693980",
+        "total_reviews": 23277,
+        "rating": 90.58727499248185,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg?t=1702492799",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1693980/library_600x900.jpg",
+        "max_players": "30925"
+    },
+    {
+        "name": "Left 4 Dead",
+        "appid": "500",
+        "total_reviews": 17597,
+        "rating": 95.35716315281014,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500/header.jpg?t=1738796049",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/500/library_600x900.jpg",
+        "max_players": "30616"
+    },
+    {
+        "name": "NBA 2K24",
+        "appid": "2338770",
+        "total_reviews": 11764,
+        "rating": 44.755185311118666,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/header.jpg?t=1723216182",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2338770/library_600x900.jpg",
+        "max_players": "30363"
+    },
+    {
+        "name": "Persona 4 Golden",
+        "appid": "1113000",
+        "total_reviews": 42255,
+        "rating": 97.47485504674003,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113000/header.jpg?t=1704380046",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1113000/library_600x900.jpg",
+        "max_players": "29984"
+    },
+    {
+        "name": "BeamNG.drive",
+        "appid": "284160",
+        "total_reviews": 154325,
+        "rating": 97.64911712295479,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/header.jpg?t=1733838013",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/284160/library_600x900.jpg",
+        "max_players": "29893"
+    },
+    {
+        "name": "FINAL FANTASY XV WINDOWS EDITION",
+        "appid": "637650",
+        "total_reviews": 16155,
+        "rating": 82.60600433302383,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637650/header.jpg?t=1737963877",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/637650/library_600x900.jpg",
+        "max_players": "29498"
+    },
+    {
+        "name": "Mafia II (Classic)",
+        "appid": "50130",
+        "total_reviews": 9573,
+        "rating": 91.51781050872245,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50130/header.jpg?t=1730176761",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/50130/library_600x900.jpg",
+        "max_players": "29474"
+    },
+    {
+        "name": "Totally Accurate Battlegrounds",
+        "appid": "823130",
+        "total_reviews": 10888,
+        "rating": 90.69617927994122,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823130/header.jpg?t=1736758204",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/823130/library_600x900.jpg",
+        "max_players": "29438"
+    },
+    {
+        "name": "Frostpunk",
+        "appid": "323190",
+        "total_reviews": 35357,
+        "rating": 92.6436066408349,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg?t=1738749836",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/323190/library_600x900.jpg",
+        "max_players": "29361"
+    },
+    {
+        "name": "Elite Dangerous",
+        "appid": "359320",
+        "total_reviews": 48203,
+        "rating": 76.47034416945003,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359320/header.jpg?t=1730387269",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/359320/library_600x900.jpg",
+        "max_players": "28923"
+    },
+    {
+        "name": "NieR Replicant\u2122 ver.1.22474487139...",
+        "appid": "1113560",
+        "total_reviews": 10140,
+        "rating": 90.54240631163708,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113560/header.jpg?t=1734624673",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1113560/library_600x900.jpg",
+        "max_players": "28684"
+    },
+    {
+        "name": "The Planet Crafter",
+        "appid": "1284190",
+        "total_reviews": 25777,
+        "rating": 95.82961554874501,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg?t=1736781400",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1284190/library_600x900.jpg",
+        "max_players": "28416"
+    },
+    {
+        "name": "Dwarf Fortress",
+        "appid": "975370",
+        "total_reviews": 21381,
+        "rating": 95.18731584116739,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/975370/header.jpg?t=1737733479",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/975370/library_600x900.jpg",
+        "max_players": "28340"
+    },
+    {
+        "name": "ULTRAKILL",
+        "appid": "1229490",
+        "total_reviews": 98727,
+        "rating": 98.02181773982801,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg?t=1734890718",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1229490/library_600x900.jpg",
+        "max_players": "28076"
+    },
+    {
+        "name": "Age of Empires II (Retired)",
+        "appid": "221380",
+        "total_reviews": 35928,
+        "rating": 95.16533066132264,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221380/header.jpg?t=1705596928",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/221380/library_600x900.jpg",
+        "max_players": "27927"
+    },
+    {
+        "name": "Titanfall\u00ae 2",
+        "appid": "1237970",
+        "total_reviews": 82125,
+        "rating": 95.3461187214612,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1726160226",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1237970/library_600x900.jpg",
+        "max_players": "27631"
+    },
+    {
+        "name": "Total War: EMPIRE \u2013 Definitive Edition",
+        "appid": "10500",
+        "total_reviews": 11119,
+        "rating": 89.52243906826153,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10500/header.jpg?t=1724863702",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/10500/library_600x900.jpg",
+        "max_players": "27559"
+    },
+    {
+        "name": "FINAL FANTASY XVI",
+        "appid": "2515020",
+        "total_reviews": 7497,
+        "rating": 80.89902627717753,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/header.jpg?t=1733335646",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2515020/library_600x900.jpg",
+        "max_players": "27508"
+    },
+    {
+        "name": "Oxygen Not Included",
+        "appid": "457140",
+        "total_reviews": 44051,
+        "rating": 96.03187214819187,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg?t=1738778261",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/457140/library_600x900.jpg",
+        "max_players": "27486"
+    },
+    {
+        "name": "LIMBO",
+        "appid": "48000",
+        "total_reviews": 11379,
+        "rating": 91.90614289480622,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/48000/header.jpg?t=1726749481",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/48000/library_600x900.jpg",
+        "max_players": "27466"
+    },
+    {
+        "name": "Days Gone",
+        "appid": "1259420",
+        "total_reviews": 31274,
+        "rating": 92.2235722964763,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1717621222",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1259420/library_600x900.jpg",
+        "max_players": "27450"
+    },
+    {
+        "name": "Batman\u2122: Arkham Knight",
+        "appid": "208650",
+        "total_reviews": 41477,
+        "rating": 91.2119970103913,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg?t=1702934528",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/208650/library_600x900.jpg",
+        "max_players": "27406"
+    },
+    {
+        "name": "Dragon's Dogma: Dark Arisen",
+        "appid": "367500",
+        "total_reviews": 21097,
+        "rating": 88.47703464947622,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367500/header.jpg?t=1701395331",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/367500/library_600x900.jpg",
+        "max_players": "27368"
+    },
+    {
+        "name": "Craftopia",
+        "appid": "1307550",
+        "total_reviews": 7103,
+        "rating": 81.47261720399831,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307550/header_alt_assets_8.jpg?t=1734673165",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1307550/library_600x900.jpg",
+        "max_players": "27246"
+    },
+    {
+        "name": "Bloodstained: Ritual of the Night",
+        "appid": "692850",
+        "total_reviews": 10468,
+        "rating": 93.4275888421857,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692850/header.jpg?t=1730730766",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/692850/library_600x900.jpg",
+        "max_players": "26934"
+    },
+    {
+        "name": "Kingdom Two Crowns",
+        "appid": "701160",
+        "total_reviews": 8261,
+        "rating": 90.08594601137877,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/701160/header.jpg?t=1733139048",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/701160/library_600x900.jpg",
+        "max_players": "26623"
+    },
+    {
+        "name": "Borderlands Game of the Year Enhanced",
+        "appid": "729040",
+        "total_reviews": 9924,
+        "rating": 85.58041112454656,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/729040/header.jpg?t=1728609218",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/729040/library_600x900.jpg",
+        "max_players": "26446"
+    },
+    {
+        "name": "Total War: ATTILA",
+        "appid": "325610",
+        "total_reviews": 12212,
+        "rating": 79.86406812970849,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/325610/header.jpg?t=1724864047",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/325610/library_600x900.jpg",
+        "max_players": "26346"
+    },
+    {
+        "name": "Sunkenland",
+        "appid": "2080690",
+        "total_reviews": 7768,
+        "rating": 85.7621009268795,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2080690/header.jpg?t=1729305297",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2080690/library_600x900.jpg",
+        "max_players": "26154"
+    },
+    {
+        "name": "Hitman: Absolution\u2122",
+        "appid": "203140",
+        "total_reviews": 11428,
+        "rating": 86.88309415470773,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/203140/library_600x900.jpg",
+        "max_players": "26137"
+    },
+    {
+        "name": "Halls of Torment",
+        "appid": "2218750",
+        "total_reviews": 18885,
+        "rating": 96.41514429441355,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/header.jpg?t=1738767805",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2218750/library_600x900.jpg",
+        "max_players": "26061"
+    },
+    {
+        "name": "Shadow Warrior",
+        "appid": "233130",
+        "total_reviews": 7894,
+        "rating": 93.56473270838612,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233130/header.jpg?t=1710246206",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/233130/library_600x900.jpg",
+        "max_players": "25890"
+    },
+    {
+        "name": "Age of Mythology: Retold",
+        "appid": "1934680",
+        "total_reviews": 7048,
+        "rating": 89.98297389330307,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg?t=1736876871",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1934680/library_600x900.jpg",
+        "max_players": "25879"
+    },
+    {
+        "name": "DRAGON BALL Z: KAKAROT",
+        "appid": "851850",
+        "total_reviews": 16642,
+        "rating": 92.31462564595601,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/851850/header.jpg?t=1738648403",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/851850/library_600x900.jpg",
+        "max_players": "25852"
+    },
+    {
+        "name": "Kerbal Space Program 2",
+        "appid": "954850",
+        "total_reviews": 19774,
+        "rating": 31.268332153332658,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954850/header.jpg?t=1738037583",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/954850/library_600x900.jpg",
+        "max_players": "25724"
+    },
+    {
+        "name": "Warhammer 40,000: Dawn of War III",
+        "appid": "285190",
+        "total_reviews": 7209,
+        "rating": 47.371341378832014,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285190/header.jpg?t=1655744092",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/285190/library_600x900.jpg",
+        "max_players": "25676"
+    },
+    {
+        "name": "F1\u00ae 2021",
+        "appid": "1134570",
+        "total_reviews": 12008,
+        "rating": 87.17521652231845,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1134570/header.jpg?t=1683125705",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1134570/library_600x900.jpg",
+        "max_players": "25575"
+    },
+    {
+        "name": "Anno 1800",
+        "appid": "916440",
+        "total_reviews": 7943,
+        "rating": 79.64245247387638,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/header.jpg?t=1736258721",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/916440/library_600x900.jpg",
+        "max_players": "25302"
+    },
+    {
+        "name": "theHunter: Call of the Wild\u2122",
+        "appid": "518790",
+        "total_reviews": 53456,
+        "rating": 89.931906614786,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/header.jpg?t=1738685914",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/518790/library_600x900.jpg",
+        "max_players": "25235"
+    },
+    {
+        "name": "F1\u00ae 22",
+        "appid": "1692250",
+        "total_reviews": 9475,
+        "rating": 65.42480211081794,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692250/header.jpg?t=1709056193",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1692250/library_600x900.jpg",
+        "max_players": "25172"
+    },
+    {
+        "name": "Chivalry: Medieval Warfare",
+        "appid": "219640",
+        "total_reviews": 22099,
+        "rating": 81.43807412100095,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219640/header.jpg?t=1710276094",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/219640/library_600x900.jpg",
+        "max_players": "25145"
+    },
+    {
+        "name": "Poppy Playtime",
+        "appid": "1721470",
+        "total_reviews": 15227,
+        "rating": 79.60202272279504,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1721470/header.jpg?t=1732118564",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1721470/library_600x900.jpg",
+        "max_players": "25128"
+    },
+    {
+        "name": "Batman\u2122: Arkham Origins",
+        "appid": "209000",
+        "total_reviews": 17574,
+        "rating": 88.48298622965744,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209000/header.jpg?t=1726531070",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/209000/library_600x900.jpg",
+        "max_players": "25017"
+    },
+    {
+        "name": "Farthest Frontier",
+        "appid": "1044720",
+        "total_reviews": 7947,
+        "rating": 87.15238454762803,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1044720/header.jpg?t=1732651804",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1044720/library_600x900.jpg",
+        "max_players": "24910"
+    },
+    {
+        "name": "Microsoft Flight Simulator 2024",
+        "appid": "2537590",
+        "total_reviews": 6907,
+        "rating": 43.593455914289855,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg?t=1737043940",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/2537590/library_600x900.jpg",
+        "max_players": "24863"
+    },
+    {
+        "name": "Wayfinder",
+        "appid": "1171690",
+        "total_reviews": 13167,
+        "rating": 68.13245234297865,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1171690/header.jpg?t=1738083724",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/1171690/library_600x900.jpg",
+        "max_players": "24712"
+    },
+    {
+        "name": "Warhammer: End Times - Vermintide",
+        "appid": "235540",
+        "total_reviews": 7759,
+        "rating": 83.56747003479829,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/235540/header.jpg?t=1729084164",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/235540/library_600x900.jpg",
+        "max_players": "24700"
+    },
+    {
+        "name": "Banished",
+        "appid": "242920",
+        "total_reviews": 24947,
+        "rating": 89.99478895257947,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242920/header.jpg?t=1667584747",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/242920/library_600x900.jpg",
+        "max_players": "24636"
+    },
+    {
+        "name": "Prey",
+        "appid": "480490",
+        "total_reviews": 20006,
+        "rating": 91.47255823253025,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/480490/header.jpg?t=1726161299",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/480490/library_600x900.jpg",
+        "max_players": "24594"
+    },
+    {
+        "name": "Wasteland 3",
+        "appid": "719040",
+        "total_reviews": 10396,
+        "rating": 85.06156213928435,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/719040/header.jpg?t=1684434108",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/719040/library_600x900.jpg",
+        "max_players": "24555"
+    },
+    {
+        "name": "Rising Storm 2: Vietnam",
+        "appid": "418460",
+        "total_reviews": 25661,
+        "rating": 89.20930595066443,
+        "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418460/header.jpg?t=1731945332",
+        "library_image": "https://cdn.akamai.steamstatic.com/steam/apps/418460/library_600x900.jpg",
+        "max_players": "24518"
+    }
+]
