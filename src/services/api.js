@@ -83,20 +83,7 @@ export default {
     }
 
     // If not opened before or no videos in storage, fetch from JSON
-    try {
-      const response = await fetch('/videos.json')
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-      const videos = await response.json()
 
-      // Save to local storage and mark as opened
-      localStorage.setItem('videos', JSON.stringify(videos))
-      localStorage.setItem('isOpenedBefore', 'true')
-
-      return videos
-    } catch (error) {
-      console.error('Error fetching videos:', error)
       // Return mock data as fallback
       const mockVideos = [
         {
@@ -126,7 +113,7 @@ export default {
       localStorage.setItem('isOpenedBefore', 'true')
 
       return mockVideos
-    }
+
   },
 
   async addVideo(videoData) {
