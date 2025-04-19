@@ -1,14 +1,35 @@
-# multi-app
+# Multi-App Platform
 
-This template should help get you started developing with Vue 3 in Vite.
+A versatile Vue 3 application that combines multiple interactive web apps in a single platform.
 
-## Recommended IDE Setup
+## Live Demo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Visit the live demo: [https://multi-app-1hy.pages.dev](https://multi-app-1hy.pages.dev/)
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+This platform includes several standalone applications:
+
+### 📺 Video Watcher
+- Watch multiple YouTube videos simultaneously in a grid layout
+- Add/remove videos dynamically
+- Responsive grid that adjusts based on number of videos and screen size
+
+### 🎬 IMDB Guessr
+- Test your movie knowledge by guessing IMDB ratings
+- View movie details including year, director, and plot
+- Score points based on the accuracy of your guesses
+
+### 🎮 Steam Game Comparison
+- Higher-Lower game with Steam games
+- Compare games based on user ratings
+- Track your score and high score
+
+## Technical Stack
+
+- Vue 3 + Vite
+- CSS with custom theming and responsive design
+- Local storage for persisting user data
 
 ## Project Setup
 
