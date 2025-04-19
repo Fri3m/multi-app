@@ -83,27 +83,30 @@ export default {
     }
 
     // If not opened before or no videos in storage, fetch from JSON
-
       // Return mock data as fallback
       const mockVideos = [
         {
-          id: 'nBMtB2L3UjI',
+          id: 'dQw4w9WgXcQ',
+          uniqueId:0,
           url: 'https://youtu.be/dQw4w9WgXcQ?si=o3sH1bKCqKNA7Wod',
           platform: 'youtube',
         },
         {
-          id: 'NDsO1LT_0lw',
+          id: 'jNQXAC9IVRw',
+          uniqueId:1,
           url: 'https://youtu.be/jNQXAC9IVRw?si=0jM_kGMgO4efwUoV',
           platform: 'youtube',
         },
         {
-          id: 'NDsO1LT_0lw',
+          id: 'XqZsoesa55w',
+          uniqueId:2,
           url: 'https://youtu.be/XqZsoesa55w?si=Yc_1TogJku2Y2-58',
           platform: 'youtube',
         },
         {
-          id: 'NDsO1LT_0lw',
-          url: 'https://www.youtube.com/live/jfKfPfyJRdk?si=UKR0ak2WVsgxI62i',
+          id: 'JnTa9XtvmfI',
+          uniqueId:3,
+          url: 'https://www.youtube.com/watch?v=JnTa9XtvmfI',
           platform: 'youtube',
         },
       ]
