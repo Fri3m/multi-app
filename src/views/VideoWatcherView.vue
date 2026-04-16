@@ -4,21 +4,25 @@ import api from '../services/api'
 
 const videos = ref([])
 const newVideoUrl = ref('')
+const newVideoTitle = ref('')
+const newVideoNote = ref('')
 const loading = ref(true)
 const error = ref(null)
 const windowHeight = ref(window.innerHeight)
 const windowWidth = ref(window.innerWidth)
-const showAddModal = ref(false) // Control visibility of add video modal
-const showDeleteConfirmModal = ref(false) // Control visibility of delete confirmation modal
-const videoToDeleteIndex = ref(null) // Store index of video to be deleted
+const layoutMode = ref('auto')
+const isMuted = ref(true)
+const showAddModal = ref(false)
+const showDeleteConfirmModal = ref(false)
+const videoToDeleteIndex = ref(null)
+const draggedVideoIndex = ref(null)
+const dragOverVideoIndex = ref(null)
 
-// Handle window resize
 function handleResize() {
   windowHeight.value = window.innerHeight
   windowWidth.value = window.innerWidth
 }
 
-// Add and remove event listeners
 onMounted(() => {
   loadVideos()
   window.addEventListener('resize', handleResize)
@@ -28,10 +32,10 @@ onUnmounted(() => {
   window.removeEventListener('resize', handleResize)
 })
 
-// Load videos
 async function loadVideos() {
   try {
     loading.value = true
+    error.value = null
     videos.value = await api.getVideos()
   } catch (err) {
     error.value = 'Failed to load videos: ' + err.message
@@ -40,36 +44,51 @@ async function loadVideos() {
   }
 }
 
-// Computed property for grid style based on window size and video count
 const gridStyle = computed(() => {
-  const controlsHeight = 70 // Reduced height since we removed the form
+  const controlsHeight = 24
   const availableHeight = windowHeight.value - controlsHeight
 
   const count = videos.value.length
   let columns = 1
 
-  if (count === 2) columns = 2
+  if (layoutMode.value === '1') columns = 1
+  else if (layoutMode.value === '2') columns = 2
+  else if (layoutMode.value === '3') columns = 3
+  else if (count === 2) columns = 2
   else if (count >= 3 && count <= 4) columns = 2
   else if (count > 4) columns = 3
 
   const rows = Math.ceil(count / columns)
 
   return {
-    height: `${availableHeight}px`,
-    maxHeight: `${availableHeight}px`,
+    height: `${Math.max(availableHeight, 240)}px`,
+    maxHeight: `${Math.max(availableHeight, 240)}px`,
     gridTemplateColumns: `repeat(${columns}, 1fr)`,
     gridTemplateRows: `repeat(${rows}, 1fr)`,
   }
 })
 
-// Extract video ID from URL
 function extractVideoId(url) {
   const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/
   const match = url.match(regExp)
   return match && match[2].length === 11 ? match[2] : null
 }
 
-// Add a new video - updated to include a unique identifier
+function getDefaultVideoTitle(videoId) {
+  return `YouTube Video ${videos.value.length + 1} (${videoId.slice(0, 4)})`
+}
+
+function getEmbedUrl(video) {
+  const muted = isMuted.value ? '1' : '0'
+  return `https://www.youtube.com/embed/${video.id}?mute=${muted}&rel=0`
+}
+
+function resetAddForm() {
+  newVideoUrl.value = ''
+  newVideoTitle.value = ''
+  newVideoNote.value = ''
+}
+
 async function addVideo() {
   if (!newVideoUrl.value) return
 
@@ -80,59 +99,48 @@ async function addVideo() {
   }
 
   try {
-    // Add a unique identifier for each video instance
     const uniqueId = `${videoId}-${Date.now()}`
     const videoData = {
       id: videoId,
       url: newVideoUrl.value,
       platform: 'youtube',
-      uniqueId: uniqueId, // Add a unique identifier to each video
+      uniqueId,
+      title: newVideoTitle.value.trim() || getDefaultVideoTitle(videoId),
+      note: newVideoNote.value.trim(),
+      addedAt: new Date().toISOString(),
     }
 
     await api.addVideo(videoData)
-    newVideoUrl.value = ''
     error.value = null
-    showAddModal.value = false // Close modal after adding
-
-    // Refresh videos list
+    resetAddForm()
+    showAddModal.value = false
     videos.value = await api.getVideos()
   } catch (err) {
     error.value = 'Failed to add video: ' + err.message
   }
 }
 
-// Trigger the delete confirmation dialog
 function confirmDeleteVideo(index) {
   videoToDeleteIndex.value = index
   showDeleteConfirmModal.value = true
 }
 
-// Cancel the video deletion
 function cancelDeleteVideo() {
   videoToDeleteIndex.value = null
   showDeleteConfirmModal.value = false
 }
 
-// Proceed with video deletion after confirmation
 async function proceedWithDelete() {
   if (videoToDeleteIndex.value === null) return
 
   const index = videoToDeleteIndex.value
 
   try {
-    // Get the specific video by its index in the array
     const videoToRemove = videos.value[index]
-
-    // Create a unique identifier for this specific video instance
-    // If there's no existing uniqueId, use the index as a fallback
     const uniqueId = videoToRemove.uniqueId || `${videoToRemove.id}-${index}`
-
-    // Call the API with both the video ID and the unique identifier
     const result = await api.removeVideo(videoToRemove.id, uniqueId)
 
     if (result.success) {
-      // If successful, simply remove this video from the local array
-      // This ensures only one instance is removed even if there are duplicates
       videos.value.splice(index, 1)
       error.value = null
     } else {
@@ -141,31 +149,81 @@ async function proceedWithDelete() {
   } catch (err) {
     error.value = 'Failed to remove video: ' + err.message
   } finally {
-    // Reset delete confirmation state
     videoToDeleteIndex.value = null
     showDeleteConfirmModal.value = false
   }
 }
 
-// Toggle add video modal
 function toggleAddModal() {
   showAddModal.value = !showAddModal.value
   if (!showAddModal.value) {
-    // Clear input and error when closing
-    newVideoUrl.value = ''
+    resetAddForm()
     error.value = null
   }
+}
+
+async function clearAllVideos() {
+  const confirmed = window.confirm('Remove all videos from Video Watcher?')
+  if (!confirmed) return
+
+  const result = await api.clearVideos()
+  if (result.success) {
+    videos.value = []
+    error.value = null
+    return
+  }
+
+  error.value = result.error || 'Failed to clear videos'
+}
+
+function openVideo(video) {
+  window.open(video.url, '_blank', 'noopener,noreferrer')
+}
+
+function handleDragStart(index) {
+  draggedVideoIndex.value = index
+  dragOverVideoIndex.value = index
+}
+
+function handleDragEnd() {
+  draggedVideoIndex.value = null
+  dragOverVideoIndex.value = null
+}
+
+function handleDragEnter(targetIndex) {
+  if (draggedVideoIndex.value === null) return
+  dragOverVideoIndex.value = targetIndex
+}
+
+async function handleDrop(targetIndex) {
+  const sourceIndex = draggedVideoIndex.value
+  draggedVideoIndex.value = null
+  dragOverVideoIndex.value = null
+
+  if (sourceIndex === null || sourceIndex === targetIndex) return
+  if (targetIndex < 0 || targetIndex >= videos.value.length) return
+
+  const updatedVideos = [...videos.value]
+  const [movedVideo] = updatedVideos.splice(sourceIndex, 1)
+  updatedVideos.splice(targetIndex, 0, movedVideo)
+
+  const result = await api.saveVideos(updatedVideos)
+  if (result.success) {
+    videos.value = result.videos
+    error.value = null
+    return
+  }
+
+  error.value = result.error || 'Failed to reorder videos'
 }
 </script>
 
 <template>
   <div class="video-watcher">
-    <div class="controls"></div>
-
     <div v-if="loading" class="loading">Loading videos...</div>
 
     <div v-else-if="videos.length === 0" class="empty-state">
-      <p>No videos added yet. Click the + button to add a YouTube video.</p>
+      <p>No videos added yet. Click the + button to build your watch wall.</p>
     </div>
 
     <div v-else class="video-grid" :style="gridStyle">
@@ -173,46 +231,88 @@ function toggleAddModal() {
         v-for="(video, index) in videos"
         :key="video.uniqueId || video.id + '-' + index"
         class="video-container"
+        :class="{
+          dragging: draggedVideoIndex === index,
+          'drop-target': dragOverVideoIndex === index && draggedVideoIndex !== index,
+        }"
       >
-        <div class="remove-panel">
-          <button class="remove-btn" @click="confirmDeleteVideo(index)">×</button>
+        <div
+          class="drag-handle"
+          title="Drag to reorder"
+          draggable="true"
+          @dragstart="handleDragStart(index)"
+          @dragend="handleDragEnd"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
 
+        <button class="remove-btn" @click="confirmDeleteVideo(index)">×</button>
+
+        <button class="video-link" @click="openVideo(video)">
+          {{ video.title }}
+        </button>
+
         <iframe
-          :src="`https://www.youtube.com/embed/${video.id}?mute=1`"
+          :src="getEmbedUrl(video)"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+
+        <div
+          v-if="draggedVideoIndex !== null"
+          class="drag-drop-zone"
+          @dragenter.prevent="handleDragEnter(index)"
+          @dragover.prevent="handleDragEnter(index)"
+          @drop="handleDrop(index)"
+        ></div>
+
+        <div
+          v-if="dragOverVideoIndex === index && draggedVideoIndex !== index"
+          class="drop-indicator"
+        >
+          Drop to move here
+        </div>
       </div>
     </div>
 
-    <!-- Floating Action Button (FAB) -->
+    <div v-if="error" class="error-banner">{{ error }}</div>
+
     <button class="fab" @click="toggleAddModal">+</button>
 
-    <!-- Add Video Modal -->
     <div v-if="showAddModal" class="modal-overlay" @click.self="toggleAddModal">
       <div class="modal-content">
         <h2>Add YouTube Video</h2>
 
         <div class="add-video-form">
           <input
-            type="text"
             v-model="newVideoUrl"
+            type="text"
             placeholder="Enter YouTube URL"
             @keyup.enter="addVideo"
           />
+          <input
+            v-model="newVideoTitle"
+            type="text"
+            placeholder="Custom title (optional)"
+            @keyup.enter="addVideo"
+          />
+          <textarea
+            v-model="newVideoNote"
+            rows="3"
+            placeholder="Short note (optional)"
+          ></textarea>
+
           <div class="modal-buttons">
             <button class="cancel-btn" @click="toggleAddModal">Cancel</button>
             <button class="add-btn" @click="addVideo">Add Video</button>
           </div>
         </div>
-
-        <div v-if="error" class="error-message">{{ error }}</div>
       </div>
     </div>
 
-    <!-- Delete Confirmation Modal -->
     <div v-if="showDeleteConfirmModal" class="modal-overlay">
       <div class="modal-content delete-confirm">
         <h2>Confirm Deletion</h2>
@@ -229,70 +329,134 @@ function toggleAddModal() {
 <style scoped>
 .video-watcher {
   height: 95vh;
-  width: 95vw;
+  width: min(95vw, 1600px);
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: var(--spacing-sm);
   margin: 0;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden;
   box-sizing: border-box;
-  position: relative; /* For FAB positioning */
+  position: relative;
 }
 
-.controls {
-  padding: var(--spacing-md);
-  margin-bottom: var(--spacing-sm);
-  flex-shrink: 0; /* Prevent controls from shrinking */
-}
-
-h1 {
-  margin: 0;
-  text-align: center;
-}
-
-/* Video grid styles */
 .video-grid {
   display: grid;
   gap: var(--spacing-sm);
   width: 100%;
-  padding: 0 var(--spacing-sm) var(--spacing-sm) var(--spacing-sm);
-  overflow: hidden; /* Prevent grid from scrolling */
+  height: 100%;
+  padding-bottom: var(--spacing-sm);
+  overflow: hidden;
   box-sizing: border-box;
 }
 
 .video-container {
   position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 0; /* Allow container to shrink below min-height */
+  min-height: 0;
+  transition:
+    transform var(--transition-speed),
+    box-shadow var(--transition-speed),
+    outline-color var(--transition-speed),
+    opacity var(--transition-speed);
+}
+
+.video-container.dragging {
+  opacity: 0.28;
+  transform: scale(0.985);
+}
+
+.video-container.drop-target {
+  outline: 2px solid rgba(76, 175, 80, 0.9);
+  outline-offset: -2px;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.18);
 }
 
 .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  border-radius: var(--radius-sm);
+  min-height: 0;
+  border: none;
+  border-radius: var(--radius-md);
+  background-color: #000;
+}
+
+.drag-drop-zone {
+  position: absolute;
+  inset: 0;
   z-index: 1;
 }
 
-/* Remove button and panel styles */
-.remove-panel {
+.drag-handle {
   position: absolute;
   top: 10px;
-  right: 10px;
-  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: center;
+  gap: 4px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.58);
+  cursor: grab;
+  z-index: 3;
+  opacity: 0.2;
+  transition:
+    opacity var(--transition-speed),
+    background-color var(--transition-speed);
+}
+
+.video-container:hover .drag-handle {
+  opacity: 1;
+}
+
+.video-container.dragging .drag-handle {
+  opacity: 1;
+  background: rgba(76, 175, 80, 0.35);
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.drag-handle span {
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.82);
+}
+
+.video-link {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  max-width: calc(100% - 24px);
+  padding: 0.45rem 0.7rem;
+  border: none;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.58);
+  color: white;
+  font-size: 0.82rem;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 3;
+  transition: opacity var(--transition-speed);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video-container:hover .video-link {
+  opacity: 1;
 }
 
 .remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   width: 30px;
   height: 30px;
   border-radius: var(--radius-full);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.72);
   color: white;
   border: none;
   font-size: 20px;
@@ -302,16 +466,35 @@ h1 {
   justify-content: center;
   transition: background-color var(--transition-speed);
   padding: 0;
+  opacity: 0;
+  z-index: 3;
+}
+
+.video-container:hover .remove-btn {
+  opacity: 1;
 }
 
 .remove-btn:hover {
   background-color: rgba(255, 0, 0, 0.7);
 }
 
-.error-message {
-  color: var(--color-danger-light);
-  text-align: center;
-  margin-top: var(--spacing-md);
+.drop-indicator {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(rgba(76, 175, 80, 0.2), rgba(76, 175, 80, 0.2)),
+    rgba(0, 0, 0, 0.15);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .loading,
@@ -322,7 +505,19 @@ h1 {
   padding: 0 var(--spacing-md);
 }
 
-/* Floating Action Button */
+.error-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  background-color: rgba(229, 57, 53, 0.92);
+  color: white;
+  box-shadow: var(--shadow-lg);
+  z-index: 1100;
+}
+
 .fab {
   position: fixed;
   bottom: 30px;
@@ -348,7 +543,6 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Modal styles */
 .modal-content h2 {
   margin-top: 0;
   margin-bottom: var(--spacing-lg);
@@ -360,13 +554,19 @@ h1 {
   gap: var(--spacing-md);
 }
 
-.add-video-form input {
+.add-video-form input,
+.add-video-form textarea {
   padding: 0.75rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
   background-color: var(--bg-input);
   color: white;
   width: 100%;
+}
+
+.add-video-form textarea {
+  resize: vertical;
+  min-height: 88px;
 }
 
 .modal-buttons {
@@ -402,7 +602,6 @@ h1 {
   background-color: var(--hover-color);
 }
 
-/* Delete confirmation specific styles */
 .delete-confirm {
   max-width: 400px;
 }
@@ -422,5 +621,13 @@ h1 {
 
 .delete-btn:hover {
   background-color: var(--color-danger-dark);
+}
+
+@media (max-width: 767px) {
+  .video-watcher {
+    width: 100vw;
+    height: 100vh;
+    padding: var(--spacing-xs);
+  }
 }
 </style>

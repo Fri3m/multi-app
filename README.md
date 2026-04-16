@@ -37,6 +37,18 @@ This platform includes several standalone applications:
 npm install
 ```
 
+### TMDb setup
+
+This project now fetches movie data for the IMDb Guessr screen from TMDb.
+
+1. Create a TMDb account and request an API key or Read Access Token:
+   [TMDb Getting Started](https://developer.themoviedb.org/v4/docs/getting-started)
+2. Copy `.env.example` to `.env`
+3. Add either `VITE_TMDB_READ_ACCESS_TOKEN` or `VITE_TMDB_API_KEY`
+
+TMDb attribution note:
+"This product uses the TMDB API but is not endorsed or certified by TMDB."
+
 ### Compile and Hot-Reload for Development
 
 ```sh
