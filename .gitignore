@@ -7,7 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
 .DS_Store
 dist
 dist-ssr
@@ -29,6 +37,6 @@ coverage
 
 *.tsbuildinfo
 
-# wrangler files
+# Wrangler local state
 .wrangler
 .dev.vars
