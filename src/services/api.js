@@ -3,12 +3,17 @@
 const TMDB_API_BASE_URL = 'https://api.themoviedb.org/3'
 const TMDB_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 const TMDB_MOVIE_CACHE_DURATION_MS = 12 * 60 * 60 * 1000
+const STEAM_GAMES_CACHE_DURATION_MS = 6 * 60 * 60 * 1000
 const STEAM_GAME_STATS_CACHE_DURATION_MS = 6 * 60 * 60 * 1000
 const VIDEO_STORAGE_KEY = 'videos'
 const VIDEO_OPENED_KEY = 'isOpenedBefore'
 
 function getTmdbMovieCacheKey(mode) {
   return `tmdb-movies-cache-${mode}`
+}
+
+function getSteamGamesCacheKey() {
+  return 'steam-games-cache-v3'
 }
 
 function getSteamGameStatsCacheKey(appid) {
@@ -86,6 +91,41 @@ function saveCachedMovies(mode, movies) {
     )
   } catch (error) {
     console.error('Error saving TMDb movie cache:', error)
+  }
+}
+
+function readCachedSteamGames() {
+  try {
+    const rawCache = localStorage.getItem(getSteamGamesCacheKey())
+    if (!rawCache) return null
+
+    const cache = JSON.parse(rawCache)
+    const isExpired = Date.now() - cache.savedAt > STEAM_GAMES_CACHE_DURATION_MS
+
+    if (isExpired || !Array.isArray(cache.games) || cache.games.length === 0) {
+      localStorage.removeItem(getSteamGamesCacheKey())
+      return null
+    }
+
+    return cache.games
+  } catch (error) {
+    console.error('Error reading Steam games cache:', error)
+    localStorage.removeItem(getSteamGamesCacheKey())
+    return null
+  }
+}
+
+function saveCachedSteamGames(games) {
+  try {
+    localStorage.setItem(
+      getSteamGamesCacheKey(),
+      JSON.stringify({
+        savedAt: Date.now(),
+        games,
+      }),
+    )
+  } catch (error) {
+    console.error('Error saving Steam games cache:', error)
   }
 }
 
@@ -312,37 +352,38 @@ function writeStoredVideos(videos) {
 export default {
   // Steam Game Comparison methods
   async getAllGames() {
+    const cachedGames = readCachedSteamGames()
+    if (cachedGames) {
+      return cachedGames
+    }
+
     try {
-      const response = await fetch('/all_games.json')
+      const response = await fetch('/api/steam-games')
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
-      return await response.json()
+
+      const games = await response.json()
+      if (Array.isArray(games) && games.length > 0) {
+        saveCachedSteamGames(games)
+        return games
+      }
+
+      throw new Error('Steam games API returned no usable records.')
     } catch (error) {
       console.error('Error fetching games:', error)
-      return [
-        {
-          name: 'PUBG: BATTLEGROUNDS',
-          appid: '578080',
-          total_reviews: 276279,
-          rating: 63.12,
-          image_url:
-            'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg',
-          library_image: 'https://cdn.akamai.steamstatic.com/steam/apps/578080/library_600x900.jpg',
-          max_players: '3257248',
-        },
-        {
-          name: 'Black Myth: Wukong',
-          appid: '2358720',
-          total_reviews: 59063,
-          rating: 94.18,
-          image_url:
-            'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg',
-          library_image:
-            'https://cdn.akamai.steamstatic.com/steam/apps/2358720/library_600x900.jpg',
-          max_players: '2415714',
-        },
-      ]
+
+      try {
+        const response = await fetch('/all_games.json')
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
+
+        return await response.json()
+      } catch (fallbackError) {
+        console.error('Error fetching fallback Steam JSON:', fallbackError)
+        return []
+      }
     }
   },
 
